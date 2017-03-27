@@ -5,3 +5,23 @@
 * Add meta data
 * Schedule posts on Buffer for twitter
 * Schedule posts on Buffer for Facebook + Google Plus
+
+== Tweets
+
+```
+This Week in #Neo4j – <date>
+
+<link>
+ft <twitter-handles> + #<topics>
+```
+
+```
+Sat 00:00
+Sat 05:00
+Sat 14:00
+Sat 21:00
+Sun 11:00
+Sun 16:00
+Sun 23:00
+Tue 03:00
+```
