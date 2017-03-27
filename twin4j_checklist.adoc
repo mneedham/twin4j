@@ -1,0 +1,7 @@
+* Schedule post for 12am on Saturdays
+* Add categories
+* Add tags
+* Add featured image
+* Add meta data
+* Schedule posts on Buffer for twitter
+* Schedule posts on Buffer for Facebook + Google Plus
