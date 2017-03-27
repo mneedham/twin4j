@@ -1,0 +1,9 @@
+Run this command:
+
+```
+asciidoctor -T templates  -o - adoc/<file> | pbcopy
+```
+
+And then bam it into Wordpress.
+
+Job done
