@@ -16,12 +16,54 @@ ft <twitter-handles> + #<topics>
 ```
 
 ```
-Sat 00:00
-Sat 05:00
-Sat 14:00
+Sat 00:00 ✓
+Sat 05:00 ✓
+Sat 14:00 ✓
 Sat 21:00
-Sun 11:00
-Sun 16:00
-Sun 23:00
-Tue 03:00
+Sun 11:00 ✓
+Sun 16:00 ✓
+Sun 23:00 ✓
+Tue 03:00 ✓
+```
+
+```
+This Week in #Neo4j – 2 April 2017
+
+http://buff.ly/2ouRlqW
+ft @emileifrem @graemerocher @ikwattro + #gorm #grails #php
+```
+
+```
+This Week in #Neo4j – 2 April 2017
+
+http://buff.ly/2ouRlqW
+ft @jimwebber @astroadamh + @datakind #opendata #data-journalism
+```
+
+```
+This Week in #Neo4j – 2 April 2017
+
+http://buff.ly/2ouRlqW
+ft @jimwebber @astroadamh + @datakind #opendata #data-journalism
+```
+
+```
+Catch up with what happened last week in #Neo4j
+
+http://buff.ly/2ouRlqW
+via @markhneedham
+```
+
+```
+This Week in #Neo4j – 2 April 2017
+
+http://buff.ly/2ouRlqW
+ft @ryguyrg @dannorth @gp_pulipaka + #recsys #awscloud #docker #auth0
+```
+
+```
+This Week in #Neo4j – 2 April 2017
+
+http://buff.ly/2ouRlqW
+ft @emileifrem @barrasadv @nicolemargaret + #recsys #forbes #taxonomies #bitcoin
 ```
