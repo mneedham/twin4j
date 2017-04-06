@@ -51,8 +51,8 @@ def hello():
                     human(datetime.datetime.fromtimestamp(record["n.updated"] / 1000), precision=1), \
                     human(datetime.datetime.fromtimestamp(record["n.created"] / 1000), precision=1))
     result += "</table>"
-    return result
-    # return render_template('hello.html', name=name)
+    
+    return render_template('hello.html', name=name)
 
 
 if __name__ == "__main__":
