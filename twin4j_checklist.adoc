@@ -16,54 +16,56 @@ ft <twitter-handles> + #<topics>
 ```
 
 ```
-Sat 00:00 ✓
-Sat 05:00 ✓
-Sat 14:00 ✓
-Sat 21:00
-Sun 11:00 ✓
-Sun 16:00 ✓
-Sun 23:00 ✓
-Tue 03:00 ✓
+Sat 00:00 x
+Sat 05:00 x
+Sat 14:00 x
+Sat 21:00 x
+Sun 11:00 x
+Sun 16:00 x
+Sun 23:00 x
+Tue 03:00 x
 ```
 
 ```
-This Week in #Neo4j – 2 April 2017
+This Week in #Neo4j – 8 April 2017
 
-http://buff.ly/2ouRlqW
-ft @emileifrem @graemerocher @ikwattro + #gorm #grails #php
-```
-
-```
-This Week in #Neo4j – 2 April 2017
-
-http://buff.ly/2ouRlqW
-ft @jimwebber @astroadamh + @datakind #opendata #data-journalism
-```
-
-```
-This Week in #Neo4j – 2 April 2017
-
-http://buff.ly/2ouRlqW
-ft @jimwebber @astroadamh + @datakind #opendata #data-journalism
+https://neo4j.com/blog/this-week-neo4j-8-april-2017/
+ft @tb_tomaz @adamcowley @maxdemarzi + #twitter #apoc #pagerank
 ```
 
 ```
 Catch up with what happened last week in #Neo4j
 
-http://buff.ly/2ouRlqW
+https://neo4j.com/blog/this-week-neo4j-8-april-2017/
 via @markhneedham
 ```
 
 ```
-This Week in #Neo4j – 2 April 2017
+This Week in #Neo4j – 8 April 2017
 
-http://buff.ly/2ouRlqW
-ft @ryguyrg @dannorth @gp_pulipaka + #recsys #awscloud #docker #auth0
+https://neo4j.com/blog/this-week-neo4j-8-april-2017/
+ft @BrockTibert @docker @projectjupyter + #datascience #php #python
 ```
 
 ```
-This Week in #Neo4j – 2 April 2017
+This Week in #Neo4j – 8 April 2017
 
-http://buff.ly/2ouRlqW
-ft @emileifrem @barrasadv @nicolemargaret + #recsys #forbes #taxonomies #bitcoin
+http://buff.ly/2nLvQAv
+ft @jensnerche @jqassistant @rbramley + #opendata #softwareanalytics #java
+```
+
+```
+This Week in #Neo4j – 8 April 2017
+
+https://neo4j.com/blog/this-week-neo4j-8-april-2017/
+ft @data4democracy @tmanning @intermineorg @malwaregroup #opendata
+```
+
+
+```
+This Week in Neo4j – 8 April 2017
+
+https://neo4j.com/blog/this-week-neo4j-8-april-2017/
+
+All your graph database news in one handy post
 ```

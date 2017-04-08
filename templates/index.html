@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <title>This Week In Neo4j</title>
+  </head>
+
+  <body>
+
+    <h2>Tweets</h3>
+
+    <table>
+      <tr>
+         <th>URL</th>
+         <th>Score</th>
+         <th>Users</th>
+         <th>Created</th>
+     </tr>
+
+    {% for r in twitter_records %}
+      <tr>
+        <td><a href="{{r['url']}}" target="_blank">{{r['url']}}</a></td>
+        <td>{{ r['score']}}</td>
+        <td>
+          <ul>
+          {% for user in r['users'] %}
+            <li><a href="http://twitter.com/{{ user }}" target="_blank">@{{ user }}</a></li>
+          {% endfor %}
+          </ul>
+        </td>
+        <td>
+          {{ r['dateCreated'] | humanise }}
+        </td>
+      </tr>
+    {% endfor %}
+  </table>
+
+
+    <h2>GitHub Projects</h3>
+
+    <table>
+      <tr>
+         <th>Project</th>
+         <th>User</th>
+         <th>Favourites</th>
+         <th>Updated</th>
+         <th>Created</th>
+     </tr>
+
+    {% for r in github_records %}
+      <tr>
+        <td><a href="{{r['n.url']}}" target="_blank">{{r['n.title']}}</a></td>
+        <td><a href="http://github.com/{{r['user.name']}}" target="_blank">{{r['user.name']}}</a></td>
+        <td>{{ r['n.favorites']}}</td>
+        <td>{{ r['n.updated'] | humanise }}</td>
+        <td>{{ r['n.created'] | humanise }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+
+
+
+  </body>
+</html>

@@ -21,38 +21,43 @@ def github_links(tx):
         records.append(record)
     return records
 
-@app.route("/")
-def hello():
-    result = "<table>"
-    result += """
-        <tr>
-            <th>Project</th>
-            <th>User</th>
-            <th>Favourites</th>
-            <th>Updated</th>
-            <th>Created</th>
-        </tr>
-    """
+def twitter_links(tx):
+    records = []
+    for record in tx.run("""\
+        WITH ((timestamp() / 1000) - (7 * 24 * 60 * 60)) AS oneWeekAgo
+        MATCH (l:Link)<--(t:Tweet:Content)
+        WHERE not(t:Retweet) AND toInt(t.created) is not null AND t.created > oneWeekAgo AND not l.url contains "neo4j.com"
+        WITH l, t, oneWeekAgo
+        MATCH (l)<--(tweet:Tweet:Content)
+        WITH l, t, tweet, oneWeekAgo
+        ORDER BY l.url, tweet.created
+        WITH l, t, COLLECT(tweet)[0] AS earliestMention, oneWeekAgo
+        WHERE earliestMention.created > oneWeekAgo
+        WITH l, t, earliestMention
+        MATCH (t)<-[:POSTED]-(user)
+        WITH l.url AS url,
+        sum(size((t)<-[:RETWEETED]-())) + sum(t.favorites) as score, earliestMention.created * 1000 AS dateCreated, COLLECT(DISTINCT user.screen_name) AS users
+        RETURN url, sum(score) AS score, users, dateCreated
+        order by score desc
+        """):
+        records.append(record)
+    return records
 
+@app.template_filter('humanise')
+def humanise_filter(value):
+    return human(datetime.datetime.fromtimestamp(value / 1000), precision=1)
+
+@app.route("/")
+def home():
+    github_records, twitter_records = [], []
     with driver.session() as session:
         for record in session.read_transaction(github_links):
-            result += """
-                <tr>
-                    <td><a href="{2}" target="_blank">{0}</a></td>
-                    <td><a href="http://github.com/{1}" target="_blank">{1}</a></td>
-                    <td>{3}</td>
-                    <td>{4}</td>
-                    <td>{5}</td>
-                </tr>""".format(\
-                    record["n.title"], \
-                    record["user.name"], \
-                    record["n.url"], \
-                    record["n.favorites"], \
-                    human(datetime.datetime.fromtimestamp(record["n.updated"] / 1000), precision=1), \
-                    human(datetime.datetime.fromtimestamp(record["n.created"] / 1000), precision=1))
-    result += "</table>"
-    
-    return render_template('hello.html', name=name)
+            github_records.append(record)
+
+        for record in session.read_transaction(twitter_links):
+            twitter_records.append(record)
+
+    return render_template('index.html', github_records=github_records, twitter_records=twitter_records)
 
 
 if __name__ == "__main__":
