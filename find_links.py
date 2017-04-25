@@ -35,9 +35,9 @@ def twitter_links(tx):
         WHERE earliestMention.created > oneWeekAgo
         WITH l, t, earliestMention
         MATCH (t)<-[:POSTED]-(user)
-        WITH l.url AS url,
+        WITH l.url AS url, l.title AS title,
         sum(size((t)<-[:RETWEETED]-())) + sum(t.favorites) as score, earliestMention.created * 1000 AS dateCreated, COLLECT(DISTINCT user.screen_name) AS users
-        RETURN url, sum(score) AS score, users, dateCreated
+        RETURN url, title, sum(score) AS score, users, dateCreated
         order by score desc
         """):
         records.append(record)
@@ -46,6 +46,10 @@ def twitter_links(tx):
 @app.template_filter('humanise')
 def humanise_filter(value):
     return human(datetime.datetime.fromtimestamp(value / 1000), precision=1)
+
+@app.template_filter("shorten")
+def shorten_filter(value):
+    return (value[:75] + '..') if len(value) > 75 else value
 
 @app.route("/")
 def home():

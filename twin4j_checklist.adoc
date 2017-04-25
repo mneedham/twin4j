@@ -19,53 +19,80 @@ ft <twitter-handles> + #<topics>
 Sat 00:00 x
 Sat 05:00 x
 Sat 14:00 x
-Sat 21:00 x
+Sat 21:00
 Sun 11:00 x
-Sun 16:00 x
+Sun 16:00
 Sun 23:00 x
+
+Mon 15:00 x
+Mon 20:00 x
+
 Tue 03:00 x
+
+
 ```
 
 ```
-This Week in #Neo4j – 8 April 2017
+This Week in #Neo4j – 22 April 2017
 
-https://neo4j.com/blog/this-week-neo4j-8-april-2017/
-ft @tb_tomaz @adamcowley @maxdemarzi + #twitter #apoc #pagerank
+https://neo4j.com/blog/this-week-neo4j-22-april-2017/
+ft @graemerocher @tb_tomaz @maxdemarzi + #gorm #twitterclone #kafka
+```
+
+```
+This week's #Neo4j featured community members is @fylmtm from @neuedaconsult
+
+https://neo4j.com/blog/this-week-neo4j-22-april-2017/
+```
+
+```
+This Week in #Neo4j – 22 April 2017
+
+https://neo4j.com/blog/this-week-neo4j-22-april-2017/
+ft @diegomrodz @rvanbruggen @anuragknoldus + #apoc #knn #nodejs
+```
+
+```
+This Week in #Neo4j – 22 April 2017
+
+https://neo4j.com/blog/this-week-neo4j-22-april-2017/
+ft @ryguyrg @FlxVctr @technige @fylmtm + #python #jetbrains
+```
+
+```
+This Week in #Neo4j – 15 April 2017
+
+https://neo4j.com/blog/this-week-neo4j-15-april-2017/
+ft @maxdemarzi @bod0ng + #reddit #twitterclone
+```
+
+```
+This Week in #Neo4j – 15 April 2017
+
+https://neo4j.com/blog/this-week-neo4j-15-april-2017/
+ft @ryguyrg @jimwebber @NathanHDize #causalclustering #itops
 ```
 
 ```
 Catch up with what happened last week in #Neo4j
 
-https://neo4j.com/blog/this-week-neo4j-8-april-2017/
+https://neo4j.com/blog/this-week-neo4j-22-april-2017/
 via @markhneedham
 ```
 
-```
-This Week in #Neo4j – 8 April 2017
-
-https://neo4j.com/blog/this-week-neo4j-8-april-2017/
-ft @BrockTibert @docker @projectjupyter + #datascience #php #python
-```
 
 ```
-This Week in #Neo4j – 8 April 2017
+This Week in Neo4j – 22 April 2017
 
-http://buff.ly/2nLvQAv
-ft @jensnerche @jqassistant @rbramley + #opendata #softwareanalytics #java
+https://neo4j.com/blog/this-week-neo4j-22-april-2017/
+
+All your graph database news in one handy post
 ```
 
 ```
-This Week in #Neo4j – 8 April 2017
+This Week in Neo4j – 15 April 2017
 
-https://neo4j.com/blog/this-week-neo4j-8-april-2017/
-ft @data4democracy @tmanning @intermineorg @malwaregroup #opendata
-```
-
-
-```
-This Week in Neo4j – 8 April 2017
-
-https://neo4j.com/blog/this-week-neo4j-8-april-2017/
+https://neo4j.com/blog/this-week-neo4j-15-april-2017/
 
 All your graph database news in one handy post
 ```

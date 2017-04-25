@@ -2,14 +2,22 @@
 <html>
   <head>
     <title>This Week In Neo4j</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
   </head>
 
   <body>
-
+<div class="container">
     <h2>Tweets</h3>
 
-    <table>
+    <table class="table table-striped">
       <tr>
+        <th>Title</th>
          <th>URL</th>
          <th>Score</th>
          <th>Users</th>
@@ -18,10 +26,11 @@
 
     {% for r in twitter_records %}
       <tr>
-        <td><a href="{{r['url']}}" target="_blank">{{r['url']}}</a></td>
+        <td>{{r['title']}}</td>
+        <td><a href="{{r['url']}}" target="_blank">{{r['url'] | shorten }}</a></td>
         <td>{{ r['score']}}</td>
         <td>
-          <ul>
+          <ul class="list-inline">
           {% for user in r['users'] %}
             <li><a href="http://twitter.com/{{ user }}" target="_blank">@{{ user }}</a></li>
           {% endfor %}
@@ -37,7 +46,7 @@
 
     <h2>GitHub Projects</h3>
 
-    <table>
+    <table class="table .table-striped">
       <tr>
          <th>Project</th>
          <th>User</th>
@@ -57,7 +66,7 @@
     {% endfor %}
   </table>
 
-
+</div>
 
   </body>
 </html>
