@@ -8,63 +8,83 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" />
 
   </head>
 
   <body>
 <div class="container">
-    <h2>Tweets</h3>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#twitter" date-toggle="tab" aria-controls="github" role="presentation" >Tweets</a>
+      </li>
 
-    <table class="table table-striped">
-      <tr>
-        <th>Title</th>
-         <th>URL</th>
-         <th>Score</th>
-         <th>Users</th>
-         <th>Created</th>
-     </tr>
+      <li class="nav-item">
+        <a class="nav-link " href="#github" date-toggle="tab" aria-controls="github" role="presentation" >GitHub</a>
+      </li>
+    </ul>
 
-    {% for r in twitter_records %}
-      <tr>
-        <td>{{r['title']}}</td>
-        <td><a href="{{r['url']}}" target="_blank">{{r['url'] | shorten }}</a></td>
-        <td>{{ r['score']}}</td>
-        <td>
-          <ul class="list-inline">
-          {% for user in r['users'] %}
-            <li><a href="http://twitter.com/{{ user }}" target="_blank">@{{ user }}</a></li>
-          {% endfor %}
-          </ul>
-        </td>
-        <td>
-          {{ r['dateCreated'] | humanise }}
-        </td>
-      </tr>
-    {% endfor %}
-  </table>
+    <div class="tab-content">
+      <div class="tab-pane active" id="tweets" role="tabpanel">
 
+        <h2>Tweets</h3>
 
-    <h2>GitHub Projects</h3>
+        <table class="table table-striped">
+          <tr>
+            <th>Title</th>
+             <th>URL</th>
+             <th>Score</th>
+             <th>Users</th>
+             <th>Created</th>
+         </tr>
 
-    <table class="table .table-striped">
-      <tr>
-         <th>Project</th>
-         <th>User</th>
-         <th>Favourites</th>
-         <th>Updated</th>
-         <th>Created</th>
-     </tr>
+        {% for r in twitter_records %}
+          <tr>
+            <td>{{r['title']}}</td>
+            <td><a href="{{r['url']}}" target="_blank">{{r['url'] | shorten }}</a></td>
+            <td>{{ r['score']}}</td>
+            <td>
+              <ul class="list-inline">
+              {% for user in r['users'] %}
+                <li><a href="http://twitter.com/{{ user }}" target="_blank">@{{ user }}</a></li>
+              {% endfor %}
+              </ul>
+            </td>
+            <td>
+              {{ r['dateCreated'] | humanise }}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
 
-    {% for r in github_records %}
-      <tr>
-        <td><a href="{{r['n.url']}}" target="_blank">{{r['n.title']}}</a></td>
-        <td><a href="http://github.com/{{r['user.name']}}" target="_blank">{{r['user.name']}}</a></td>
-        <td>{{ r['n.favorites']}}</td>
-        <td>{{ r['n.updated'] | humanise }}</td>
-        <td>{{ r['n.created'] | humanise }}</td>
-      </tr>
-    {% endfor %}
-  </table>
+      </div>
+
+      <div class="tab-pane" id="github" role="tabpanel">
+
+        <h2>GitHub Projects</h3>
+
+        <table class="table .table-striped">
+          <tr>
+             <th>Project</th>
+             <th>User</th>
+             <th>Favourites</th>
+             <th>Updated</th>
+             <th>Created</th>
+         </tr>
+
+        {% for r in github_records %}
+          <tr>
+            <td><a href="{{r['n.url']}}" target="_blank">{{r['n.title']}}</a></td>
+            <td><a href="http://github.com/{{r['user.name']}}" target="_blank">{{r['user.name']}}</a></td>
+            <td>{{ r['n.favorites']}}</td>
+            <td>{{ r['n.updated'] | humanise }}</td>
+            <td>{{ r['n.created'] | humanise }}</td>
+          </tr>
+        {% endfor %}
+      </table>
+      </div>
+    </div>
+
 
 </div>
 
