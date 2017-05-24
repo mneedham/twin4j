@@ -1,34 +1,34 @@
 <!doctype html>
 <html>
   <head>
-    <title>This Week In Neo4j</title>
+    <title>This Week In {{ title }}</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" />
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
 
   </head>
 
   <body>
 <div class="container">
-    <ul class="nav nav-tabs">
-      <li class="nav-item">
-        <a class="nav-link active" href="#twitter" date-toggle="tab" aria-controls="github" role="presentation" >Tweets</a>
-      </li>
+  <h1>This Week in {{ title }}</h1>
+    <p>
+        Generated at <strong>{{ time_now }}</strong>
+    </p>
 
-      <li class="nav-item">
-        <a class="nav-link " href="#github" date-toggle="tab" aria-controls="github" role="presentation" >GitHub</a>
-      </li>
-    </ul>
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#twitter" aria-controls="twitter" role="tab" data-toggle="tab">Twitter</a></li>
+    <li role="presentation"><a href="#github" aria-controls="github" role="tab" data-toggle="tab">GitHub</a></li>
+  </ul>
 
     <div class="tab-content">
-      <div class="tab-pane active" id="tweets" role="tabpanel">
-
-        <h2>Tweets</h3>
-
+      <div role="tabpanel" class="tab-pane active" id="twitter">
         <table class="table table-striped">
           <tr>
             <th>Title</th>
@@ -59,10 +59,7 @@
 
       </div>
 
-      <div class="tab-pane" id="github" role="tabpanel">
-
-        <h2>GitHub Projects</h3>
-
+      <div role="tabpanel" class="tab-pane" id="github">
         <table class="table .table-striped">
           <tr>
              <th>Project</th>
