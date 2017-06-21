@@ -1,4 +1,5 @@
 ﻿:linkattrs:
+:type: "web"
 
 
 ////
@@ -150,11 +151,7 @@ What’s happening next week in the world of graph databases?
 
 My favourite tweet this week was by https://twitter.com/Snugug[Sam Richard^]:
 
-++++
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Me learning Neo4j === syntax highlighting IRL <a href="https://t.co/WRCqzAxn9D">pic.twitter.com/WRCqzAxn9D</a></p>&mdash; Sam Richard (@Snugug) <a href="https://twitter.com/Snugug/status/875114798438121472">June 14, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-++++
-
+tweet::877476151912005632[type={type}]
 
 Don't forget to RT if you liked it too.
 
