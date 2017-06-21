@@ -16,7 +16,7 @@ end %><div<%= @id && %( id="#{@id}") %> class="<%= ['ulist',checklist,@style,rol
 if title? %>
 <div class="title"><%= title %></div><%
 end %>
-<ul><ul<%= (style_class = checklist || @style) ? %( class="#{style_class}") : nil %>><%
+<ul<%= (style_class = checklist || @style) ? %( class="#{style_class}") : nil %>><%
 items.each do |item| %>
 <li>
 <%
@@ -28,5 +28,5 @@ items.each do |item| %>
   end %>
 </li><%
 end %>
-</ul></ul>
+</ul>
 </div>
