@@ -20,11 +20,9 @@ class TwitterBlockMacro < Extensions::BlockMacroProcessor
   def process parent, target, attrs
 
     if attrs["type"] == "web"
-      response = open('https://publish.twitter.com/oembed?url=https://twitter.com/twin4j/status/877476151912005632').read
-      inner_html = JSON.parse(response)["html"]
-
       html = %(<div class="content">
-      #{inner_html}
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/#{target}" frameborder="0" allowfullscreen></iframe>
+      <br /><br />
       </div>)
     else
       options = Selenium::WebDriver::Chrome::Options.new
@@ -34,18 +32,18 @@ class TwitterBlockMacro < Extensions::BlockMacroProcessor
       options.add_argument('--user-agent=iphone')
       options.add_argument('--window-size=414,600')
 
-      image_location = "adoc/images/#{target}.png"
+      image_location = "adoc/images/youtube/#{target}.png"
       tweet_location = "https://twitter.com/twin4j/status/#{target}"
+      s3_location = "https://s3-eu-west-1.amazonaws.com/twin4j-newsletter-images/images/twitter/#{target}.png"
 
       driver = Selenium::WebDriver.for :chrome, options: options
-      driver.navigate.to "https://twitter.com/twin4j/status/#{target}"
+      driver.navigate.to tweet_location
       driver.save_screenshot image_location
-
       driver.quit
 
       html = %(<div class="content">
       <a class="image" href="#{tweet_location}" target="_blank">
-        <img src="#{image_location}" width="100%" />
+        <img src="#{s3_location}" width="100%" />
       </a>
       </div>)
     end

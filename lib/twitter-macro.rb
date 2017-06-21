@@ -1,4 +1,4 @@
-RUBY_ENGINE == 'opal' ? (require 'twitter-email-macro/extension') : (require_relative 'twitter-email-macro/extension')
+RUBY_ENGINE == 'opal' ? (require 'twitter-macro/extension') : (require_relative 'twitter-macro/extension')
 
 Asciidoctor::Extensions.register do
   if (@document.basebackend? 'html') && (@document.safe < SafeMode::SECURE)

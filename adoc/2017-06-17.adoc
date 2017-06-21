@@ -92,12 +92,7 @@ On behalf of the Neo4j community, thanks for all your work Jasper!
 
 In this week's online meetup https://twitter.com/metadaddy[Pat Patterson^], Community Champion at https://streamsets.com/[StreamSets^], showed us how to use https://streamsets.com/products/sdc/[StreamSets Data Collector^] to import Salesforce data into Neo4j.
 
-
-++++
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-IAalFGuty0" frameborder="0" allowfullscreen></iframe>
-<br /><br />
-++++
-
+youtube::-IAalFGuty0[type={type}]
 
 Pat also has https://streamsets.com/blog/visualizing-analyzing-salesforce-data-neo4j/[a blog post^] on the same subject.
 
