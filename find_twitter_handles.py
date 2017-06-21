@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-f = open('adoc/2017-05-20.html', 'r')
+f = open('adoc/2017-06-17.html', 'r')
 
 soup = BeautifulSoup(f.read(), 'html.parser')
 

@@ -28,43 +28,40 @@ Tue 03:00 x
 ```
 
 ```
-This Week in #Neo4j – 20 May 2017
+This week's #Neo4j featured community member is @bluesjasper
 
-http://buff.ly/2rAu1bY
-ft @airbnbeng @metadaddy #elastic #python #salesforce
-```
-
-```
-This week's #Neo4j featured community member is @AtomRain's @bennussbaum
-
-https://neo4j.com/blog/this-week-neo4j-20-may-2017/
-```
-
-```
-This Week in #Neo4j – 20 May 2017
-
-https://neo4j.com/blog/this-week-neo4j-20-may-2017/
-ft @lyonwj @stubailo @apollographql #graphql
+http://buff.ly/2sxrnr7
 ```
 
 ```
 Catch up with what happened last week in #Neo4j
 
-https://neo4j.com/blog/this-week-neo4j-20-may-2017/
+
+http://buff.ly/2sxrnr7
 via @markhneedham @mesirii
 ```
 
 ```
-This Week in #Neo4j – 20 May 2017
+This Week in #Neo4j – 17 June 2017
 
-https://neo4j.com/blog/this-week-neo4j-20-may-2017/
-ft @jqassistant @dirkmahler @irenillap #softwareanalytics #gousto
+http://buff.ly/2sxrnr7
 
+ft @Green_spector #softwareanalytics @metadaddy #streamsets
+```
+
+
+```
+This Week in #Neo4j – 17 June 2017
+
+http://buff.ly/2sxrnr7
+
+ft @linkurious @szarnyasg @monkchips #podcast #graphql
 ```
 
 ```
-This Week in #Neo4j – 29 April 2017
+This Week in #Neo4j – 17 June 2017
 
-https://neo4j.com/blog/this-week-neo4j-29-april-2017/
-ft @technige @cmdel @andrewsmatt #python #bible
+http://buff.ly/2sxrnr7
+
+ft @niekbartho @intermine @tb_tomaz #openthebox  #marvel
 ```
