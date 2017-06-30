@@ -28,40 +28,47 @@ Tue 03:00 x
 ```
 
 ```
-This week's #Neo4j featured community member is @bluesjasper
+This week's #Neo4j featured community member is @dhimmel
 
-http://buff.ly/2sxrnr7
+http://buff.ly/2txezyS
 ```
 
 ```
 Catch up with what happened last week in #Neo4j
 
 
-http://buff.ly/2sxrnr7
+http://buff.ly/2txezyS
 via @markhneedham @mesirii
 ```
 
 ```
-This Week in #Neo4j – 17 June 2017
+This Week in #Neo4j – 24 June 2017
 
-http://buff.ly/2sxrnr7
+http://buff.ly/2txezyS
 
-ft @Green_spector #softwareanalytics @metadaddy #streamsets
+ft @aethelraed @mesirii @danielabutano #lifesciences #healthcare
 ```
 
 
 ```
-This Week in #Neo4j – 17 June 2017
+This Week in #Neo4j – 24 June 2017
 
-http://buff.ly/2sxrnr7
+http://buff.ly/2txezyS
 
-ft @linkurious @szarnyasg @monkchips #podcast #graphql
+ft @ikwattro #alexa #nlp @graph_aware @npontikos #pheno4j
 ```
 
 ```
-This Week in #Neo4j – 17 June 2017
+This Week in #Neo4j – 24 June 2017
 
-http://buff.ly/2sxrnr7
+http://buff.ly/2txezyS
 
-ft @niekbartho @intermine @tb_tomaz #openthebox  #marvel
+ft @rweverwijk #twitter @_rkstar @barrasadv
 ```
+
+```
+This Week in Neo4j - 24 June 2017
+
+http://buff.ly/2txezyS
+
+All your graph database news in one handy post!

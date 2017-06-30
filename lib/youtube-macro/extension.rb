@@ -20,11 +20,9 @@ class YouTubeBlockMacro < Extensions::BlockMacroProcessor
   def process parent, target, attrs
 
     if attrs["type"] == "web"
-      response = open('https://publish.twitter.com/oembed?url=https://twitter.com/twin4j/status/#{target}').read
-      inner_html = JSON.parse(response)["html"]
-
       html = %(<div class="content">
-      #{inner_html}
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/#{target}" frameborder="0" allowfullscreen></iframe>
+      <br /><br />
       </div>)
     else
       options = Selenium::WebDriver::Chrome::Options.new

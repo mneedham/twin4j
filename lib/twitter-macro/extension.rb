@@ -20,9 +20,11 @@ class TwitterBlockMacro < Extensions::BlockMacroProcessor
   def process parent, target, attrs
 
     if attrs["type"] == "web"
+      response = open("https://publish.twitter.com/oembed?url=https://twitter.com/twin4j/status/#{target}").read
+      inner_html = JSON.parse(response)["html"]
+
       html = %(<div class="content">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/#{target}" frameborder="0" allowfullscreen></iframe>
-      <br /><br />
+      #{inner_html}
       </div>)
     else
       options = Selenium::WebDriver::Chrome::Options.new
@@ -32,7 +34,7 @@ class TwitterBlockMacro < Extensions::BlockMacroProcessor
       options.add_argument('--user-agent=iphone')
       options.add_argument('--window-size=414,600')
 
-      image_location = "adoc/images/youtube/#{target}.png"
+      image_location = "adoc/images/twitter/#{target}.png"
       tweet_location = "https://twitter.com/twin4j/status/#{target}"
       s3_location = "https://s3-eu-west-1.amazonaws.com/twin4j-newsletter-images/images/twitter/#{target}.png"
 
