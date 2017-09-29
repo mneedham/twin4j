@@ -35,7 +35,7 @@ class YouTubeBlockMacro < Extensions::BlockMacroProcessor
       image_location = "adoc/images/youtube/#{target}.png"
       youtube_location = "https://www.youtube.com/embed/#{target}"
       youtube_link = "https://www.youtube.com/watch?v=#{target}"
-      s3_location = "https://s3-eu-west-1.amazonaws.com/twin4j-newsletter-images/images/youtube/#{target}.png"
+      s3_location = "https://s3-eu-west-1.amazonaws.com/twin4j-newsletter-images/youtube/#{target}.png"
 
       driver = Selenium::WebDriver.for :chrome, options: options
       driver.navigate.to youtube_location

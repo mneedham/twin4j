@@ -16,59 +16,94 @@ ft <twitter-handles> + #<topics>
 ```
 
 ```
-Sat 00:00 x
-Sat 05:00 x
-Sat 14:00 x
-Sat 21:00 x
-Sun 11:00 x
-Sun 16:00 x
-Sun 23:00 x
-Tue 03:00 x
+Sat 00:00 (community member)  [x]
+Sat 05:00                     [x]
+Sat 14:00                     [x]
+Sat 21:00 (meetups)           [x]
+Sun 11:00                     [x]
+Sun 16:00                     [x]
+Sun 23:00                     [x]
+Tue 03:00 (catchup)           [x]
 
+Facebook                      [x]
+LinkedIn                      [x]
+Google+                       [x]
 ```
 
 ```
-This week's #Neo4j featured community member is @dhimmel
+This week's #Neo4j featured community member is @graph_aware's @AlessandroNegro
 
-http://buff.ly/2txezyS
+https://neo4j.com/blog/this-week-neo4j-23-september-2017/
+
+#twin4j
+```
+
+```
+#twin4j tweet of the week - 23 September 2017 - was by @V_Kurbatov
+
+https://neo4j.com/blog/this-week-neo4j-23-september-2017/
+
+https://twitter.com/V_Kurbatov/status/910806893874024448
+
+#neo4j
 ```
 
 ```
 Catch up with what happened last week in #Neo4j
 
-
-http://buff.ly/2txezyS
+https://neo4j.com/blog/this-week-neo4j-23-september-2017/
 via @markhneedham @mesirii
+
+#twin4j
 ```
 
 ```
-This Week in #Neo4j – 24 June 2017
+This Week in #Neo4j – 23 September 2017
 
-http://buff.ly/2txezyS
+https://neo4j.com/blog/this-week-neo4j-23-september-2017/
 
-ft @aethelraed @mesirii @danielabutano #lifesciences #healthcare
+ft @barrasadv #rdf #fakenews @jimwebber #graphnative
+
+#twin4j
 ```
 
 
 ```
-This Week in #Neo4j – 24 June 2017
+This Week in #Neo4j – 23 September 2017
 
-http://buff.ly/2txezyS
+https://r.neo4j.com/2xWpDLo
 
-ft @ikwattro #alexa #nlp @graph_aware @npontikos #pheno4j
+ft @know_bi @bartmaer @pentaho #@natpryce @richajam
+
+#twin4j
 ```
 
 ```
-This Week in #Neo4j – 24 June 2017
+#twin4j - meetups next week in London, Philadelphia, and online!
 
-http://buff.ly/2txezyS
+https://neo4j.com/blog/this-week-neo4j-23-september-2017/
 
-ft @rweverwijk #twitter @_rkstar @barrasadv
+ft @ikwattro @adamcowley
+
 ```
 
 ```
-This Week in Neo4j - 24 June 2017
+This Week in #Neo4j – 23 September 2017
 
-http://buff.ly/2txezyS
+https://neo4j.com/blog/this-week-neo4j-23-september-2017/
 
 All your graph database news in one handy post!
+```
+
+```
+This Week in #Neo4j – 23 September 2017
+
+https://www.slideshare.net/neo4j/this-week-in-neo4j-23rd-september-2017
+
+All your graph database news in one handy post!
+```
+
+== People to contact
+
+* richard.hall@astx.com - Chemistry recommendation engine - http://pubs.acs.org/doi/abs/10.1021%2Facs.jmedchem.7b00809
+* lundberg@sunet.se - NORDUni: network inventories - https://github.com/NORDUnet/python-norduniclient

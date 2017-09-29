@@ -36,7 +36,7 @@ class TwitterBlockMacro < Extensions::BlockMacroProcessor
 
       image_location = "adoc/images/twitter/#{target}.png"
       tweet_location = "https://twitter.com/twin4j/status/#{target}"
-      s3_location = "https://s3-eu-west-1.amazonaws.com/twin4j-newsletter-images/images/twitter/#{target}.png"
+      s3_location = "https://s3-eu-west-1.amazonaws.com/twin4j-newsletter-images/twitter/#{target}.png"
 
       driver = Selenium::WebDriver.for :chrome, options: options
       driver.navigate.to tweet_location
