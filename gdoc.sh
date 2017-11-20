@@ -2,7 +2,7 @@
 
 # echo 'include::{url}[]' > template.adoc
 
-: ${doc_id:=${1:-"1UXKNXCAL1S-fj6tBh3xMZKFcgEzQF8flYXwxXTkuLGM"}}
+: ${doc_id:=${1:-"16RgVXa4gfqrPjMWuh0w_9nct5AwI63CxX_EcKrweSwE"}}
 
 asciidoctor -a allow-uri-read \
   -a url="https://docs.google.com/a/neotechnology.com/document/export?format=txt&id=${doc_id}" \
