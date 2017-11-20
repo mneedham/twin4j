@@ -1,0 +1,5 @@
+.DS_Store
+adoc/*.html
+.ruby-version
+.idea
+data
