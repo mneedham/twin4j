@@ -17,33 +17,33 @@ ft <twitter-handles> + #<topics>
 
 ```
 Sat 00:00 (community member)  [x]
-Sat 05:00                     [x]
+Sat 05:00 (slides)            [x]
 Sat 14:00                     [x]
 Sat 21:00 (meetups)           [x]
 Sun 11:00                     [x]
 Sun 16:00                     [x]
-Sun 23:00                     [x]
+Sun 23:00 (tweet)             [x]
 Tue 03:00 (catchup)           [x]
 
 Facebook                      [x]
-LinkedIn                      [x]
 Google+                       [x]
+LinkedIn                      [x]
 ```
 
 ```
-This week's #Neo4j featured community member is @graph_aware's @AlessandroNegro
+This week's #Neo4j featured community member is @nmervaillie
 
-https://neo4j.com/blog/this-week-neo4j-23-september-2017/
+https://neo4j.com/blog/this-week-neo4j-18-november-2017/
 
 #twin4j
 ```
 
 ```
-#twin4j tweet of the week - 23 September 2017 - was by @V_Kurbatov
+#twin4j tweet of the week - 18 November 2017 - was by @ssb_poppy
 
-https://neo4j.com/blog/this-week-neo4j-23-september-2017/
+https://neo4j.com/blog/this-week-neo4j-18-november-2017/
 
-https://twitter.com/V_Kurbatov/status/910806893874024448
+RT if you liked it too!
 
 #neo4j
 ```
@@ -51,59 +51,69 @@ https://twitter.com/V_Kurbatov/status/910806893874024448
 ```
 Catch up with what happened last week in #Neo4j
 
-https://neo4j.com/blog/this-week-neo4j-23-september-2017/
+https://neo4j.com/blog/this-week-neo4j-18-november-2017/
+
 via @markhneedham @mesirii
 
 #twin4j
 ```
 
 ```
-This Week in #Neo4j – 23 September 2017
+This Week in #Neo4j – 18 November 2017
 
-https://neo4j.com/blog/this-week-neo4j-23-september-2017/
+https://neo4j.com/blog/this-week-neo4j-18-november-2017/
 
-ft @barrasadv #rdf #fakenews @jimwebber #graphnative
-
-#twin4j
-```
-
-
-```
-This Week in #Neo4j – 23 September 2017
-
-https://r.neo4j.com/2xWpDLo
-
-ft @know_bi @bartmaer @pentaho #@natpryce @richajam
+ft @rjurney @mesirri #relato
 
 #twin4j
 ```
 
-```
-#twin4j - meetups next week in London, Philadelphia, and online!
-
-https://neo4j.com/blog/this-week-neo4j-23-september-2017/
-
-ft @ikwattro @adamcowley
 
 ```
+This Week in #Neo4j – 18 November 2017
+
+https://neo4j.com/blog/this-week-neo4j-18-november-2017/
+
+ft @lyonwj #nlp @mdavidallen #russiantrolls #graphql
+
+#twin4j
+```
 
 ```
-This Week in #Neo4j – 23 September 2017
+#twin4j - #neo4j events next week in Dubai, Stockholm, and online
 
-https://neo4j.com/blog/this-week-neo4j-23-september-2017/
+https://neo4j.com/blog/this-week-neo4j-18-november-2017/
+
+ft @rvanbruggen @ikwattro
+
+#twin4j
+
+```
+
+```
+This Week in #Neo4j – 18 November 2017
+
+https://neo4j.com/blog/this-week-neo4j-18-november-2017/
 
 All your graph database news in one handy post!
 ```
 
 ```
-This Week in #Neo4j – 23 September 2017
+This Week in #Neo4j – 18 November 2017
 
-https://www.slideshare.net/neo4j/this-week-in-neo4j-23rd-september-2017
+https://www.slideshare.net/neo4j/this-week-in-neo4j-18th-november-2017
 
-All your graph database news in one handy post!
+All your graph database news in one handy slide deck!
+
+#twin4j
 ```
 
 == People to contact
 
-* richard.hall@astx.com - Chemistry recommendation engine - http://pubs.acs.org/doi/abs/10.1021%2Facs.jmedchem.7b00809
-* lundberg@sunet.se - NORDUni: network inventories - https://github.com/NORDUnet/python-norduniclient
+* https://github.com/jmercouris/networkt - john@mercouris.email
+
+== Read in more detail
+
+* https://graphaware.com/neo4j/2017/10/03/efficient-unsupervised-topic-extraction-nlp-neo4j.html
+
+* For Jesus - https://www.slideshare.net/neo4j/how-to-make-your-graph-db-project-successful-with-neo4j-services
