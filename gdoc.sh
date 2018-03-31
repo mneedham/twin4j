@@ -10,5 +10,6 @@ asciidoctor -a allow-uri-read \
   -a type=web \
   -r ./lib/twitter-macro.rb \
   -r ./lib/youtube-macro.rb \
+  -r ./lib/featured-macro.rb  \
   -T blog-templates \
   -o -
