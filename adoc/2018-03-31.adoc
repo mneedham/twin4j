@@ -1,3 +1,9 @@
+++++
+<style type="text/css">
+p { margin-top: 0.5em; }
+</style>
+++++
+
 :linkattrs:
 :type: "web"
 
@@ -53,10 +59,13 @@ On behalf of the Neo4j community, thanks for all your work Jeffrey!
 
 === Interesting, Neo4j Related Projects
 
+* The infamous Max De Marzi demonstrates how to use Neo4j for a common https://maxdemarzi.com/2018/03/23/scheduling-meetings-with-neo4j/[meeting room scheduling task^]. Quite impressive Cypher queries in there.
+* Max also demos another new feature of *Neo4j 3.4 - geo-spatial indexes*. In his https://maxdemarzi.com/2018/03/21/neo4j-geospatial-queries/[blog post^], he describes how to use them to find the right type of food place for your tastes via the geolocation of the city that you're both in.
 * There seems to be a lot of recent interest in Python front-ends for Neo4j, Timothée Mazzucotelli created https://github.com/Pawamoy/neopy[NeoPy] which is early alpha but contains some nice ideas
 * Zeqi Lin has a https://github.com/linzeqipku[number of cool repositories^] of importing different types of data into Neo4j, e.g. Java classes, Git Commits or parts of Docx documents, and even SnowGraph a software data analytics platform built on Neo4j.
 // * https://twitter.com/tomasperezv[Tomás Pérez^] created a [Neo4j workshop^] based on your own LinkedIn data, which is really cool.
 * I think I came across this before, but the https://github.com/legraphista/newrelic-neo4j[newrelic-neo4j^] is really a neat way of getting Neo4j metrics into NewRelic, thanks https://twitter.com/legraphista[Ștefan-Gabriel Muscalu^]. While browsing his repositories I also came across this https://github.com/findie/wikidata-neo4j-importer[WikiData Neo4j Importer^] which I need to test out
+* This https://github.com/weihesdlegend/Auto-complete-System[AutoComplete system^] uses Neo4j which stores terms, counts and other associated information. It returns top 10 suggestions for auto-complete and tracks usage patterns.
 * Sam answered a question on counting distinct paths on https://stackoverflow.com/questions/49501213/counting-distinct-undirected-paths-in-cypher[StackOverflow^]
 
 .Nigel is teasing us
