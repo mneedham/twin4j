@@ -22,8 +22,10 @@ Sat 14:00                     [x]
 Sat 21:00 (meetups)           [x]
 Sun 11:00                     [x]
 Sun 16:00                     [x]
-Sun 23:00 (tweet)             [x]
+Sun 23:00                     [x]
+Mon 02:00                     [x]
 Tue 03:00 (catchup)           [x]
+Tue 12:00                     [ ]
 
 Facebook                      [x]
 Google+                       [x]
@@ -31,27 +33,20 @@ LinkedIn                      [x]
 ```
 
 ```
-This week's #Neo4j featured community member is @nmervaillie
+This week's long over due #Neo4j featured community member is the author of @jqassistant, @dirkmahler
 
-https://neo4j.com/blog/this-week-neo4j-18-november-2017/
+https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc/?ref=twitter#featured-community-member
 
 #twin4j
 ```
 
-```
-#twin4j tweet of the week - 18 November 2017 - was by @ssb_poppy
+https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc
 
-https://neo4j.com/blog/this-week-neo4j-18-november-2017/
-
-RT if you liked it too!
-
-#neo4j
-```
 
 ```
-Catch up with what happened last week in #Neo4j
+Catch up with what happened last week in #Neo4j, including GRANDstack starter kit, Py2neo Release, Loading JSON APIs with APOC, Analysing the Lightning Network, @graph_aware’s 5th birthday,  and more...
 
-https://neo4j.com/blog/this-week-neo4j-18-november-2017/
+https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc/?ref=twitter
 
 via @markhneedham @mesirii
 
@@ -59,49 +54,82 @@ via @markhneedham @mesirii
 ```
 
 ```
-This Week in #Neo4j – 18 November 2017
+In this week's #twin4j @lyonwj releases the GRANDstack starter project and announces The GRANDstack Online Hackathon For @graphqleu 2018
 
-https://neo4j.com/blog/this-week-neo4j-18-november-2017/
-
-ft @rjurney @mesirri #relato
-
-#twin4j
-```
-
-
-```
-This Week in #Neo4j – 18 November 2017
-
-https://neo4j.com/blog/this-week-neo4j-18-november-2017/
-
-ft @lyonwj #nlp @mdavidallen #russiantrolls #graphql
+https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc/?ref=twitter#this-week-grandstack
 
 #twin4j
 ```
 
 ```
-#twin4j - #neo4j events next week in Dubai, Stockholm, and online
+In this week's #twin4j @glennsarti goes extremely meta and shows how to create a Neo4j graph of the Powershell help documents using Powershell!
 
-https://neo4j.com/blog/this-week-neo4j-18-november-2017/
+https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc/?ref=twitter#lightning-reco-powershell
 
-ft @rvanbruggen @ikwattro
+#neo4j
+```
 
-#twin4j
+
+```
+In this week's #twin4j @markhneedham and the Neo4j customer success team show how to import JSON APIs into #Neo4j using the #APOC library
+
+https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc/?ref=twitter#json-apis-apoc
+
+#neo4j #strava #zendesk
+```
+
+```
+In this week's #twin4j @JMHReif explains how to add new plugins to Neo4j and then goes through some of her favourite procedures from the popular APOC library.
+
+https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc/?ref=twitter#spring-data-neo4j-documents-gopher
+
+#neo4j
+```
+
+```
+In this week's #twin4j @technige releases v4 of #py2neo. You can now export results from queries to numpy, pandas, and sympy objects.
+
+https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc/?ref=twitter#podcast
+
+#neo4j
+```
+
+```
+In this week's #twin4j the video from @astroadamh @pydata talk about building a UK Corporate Interest Graph is released
+
+https://neo4j.com/blog/this-week-in-neo4j-release-of-neo4j-etl-tool-uk-corporate-interests-graph-documents-as-graphs/?ref=twitter#pydata
 
 ```
 
 ```
-This Week in #Neo4j – 18 November 2017
+In this week's #twin4j
 
-https://neo4j.com/blog/this-week-neo4j-18-november-2017/
+https://neo4j.com/blog/this-week-in-neo4j-release-of-neo4j-etl-tool-uk-corporate-interests-graph-documents-as-graphs/?ref=twitter#spring-data-neo4j-documents-gopher
 
-All your graph database news in one handy post!
+#twin4j #neo4j
 ```
 
 ```
-This Week in #Neo4j – 18 November 2017
+In this week's #twin4j
 
-https://www.slideshare.net/neo4j/this-week-in-neo4j-18th-november-2017
+https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc/?ref=twitter#spring-data-neo4j-documents-gopher
+
+#twin4j #neo4j
+```
+
+
+
+```
+#twin4j - next week we have #neo4j meetups in London, Brussels, and Düsseldorf
+
+https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc/?ref=twitter#meetups
+
+```
+
+```
+This Week in #Neo4j – GRANDstack starter kit, Py2neo Release, Loading JSON APIs with APOC, Analysing the Lightning Network, @graph_aware’s 5th birthday,  and more...
+
+https://www.slideshare.net/neo4j/this-week-in-neo4j-9th-june-2018
 
 All your graph database news in one handy slide deck!
 
@@ -116,4 +144,18 @@ All your graph database news in one handy slide deck!
 
 * https://graphaware.com/neo4j/2017/10/03/efficient-unsupervised-topic-extraction-nlp-neo4j.html
 
-* For Jesus - https://www.slideshare.net/neo4j/how-to-make-your-graph-db-project-successful-with-neo4j-services
+== Tip of the week
+
+- Good & Bad Use Cases, examples.
+
+- Data Import into Neo4J (CSV, build Cypher statements or something else?)
+
+- Subtleties of WHERE predicates with relationship queries (I always end up with an empty set!)
+
+- Cypher basics & code snippets
+
+- Design/Schema guidelines (e.g. when to use Labels vs properties)
+
+- Neo4J GUI tips
+
+- PowerShell & Neo4j (eeeekk!)
