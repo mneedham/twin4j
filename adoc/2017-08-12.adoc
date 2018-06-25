@@ -29,10 +29,10 @@ This Week in Neo4j – 12 August 2017
 ////
 
 
-Welcome to this week in Neo4j where we round up what's been happening in the world of graph databases in the last 7 days. 
+Welcome to this week in Neo4j where we round up what's been happening in the world of graph databases in the last 7 days.
 
 
-=== Featured Community Member: Person
+=== Featured Community Member: Eve Freeman
 
 
 This week’s featured community member is https://twitter.com/wefreema[Eve Freeman^], Applications Development Analyst IV at Fannie Mae.
@@ -57,14 +57,14 @@ Eve is a long time Neo4j community member, an expert in https://www.slideshare.n
 Eve http://blog.bruggen.com/2015/05/podcast-interview-with-wes-freeman.html[featured on one of the very early editions of the Neo4j podcast^], back in 2015, and if you've attended a Neo4j training course on the East coast of the USA you've probably been taught about graphs by Eve. A lot of the content in the Advanced Cypher training was authored by her.
 
 
-Finally, Eve is a https://neo4j.com/ambassador/[Neo4j Ambassador^] and created the http://www.anormcypher.org/[AnormCypher^] Scala driver. 
+Finally, Eve is a https://neo4j.com/ambassador/[Neo4j Ambassador^] and created the http://www.anormcypher.org/[AnormCypher^] Scala driver.
 
 
 On behalf of the Neo4j community, thanks for your all your work Eve!
 
 
 [[online-meetup]]
-=== Online Meetup: Versioning your Neo4j graph through entity-state model 
+=== Online Meetup: Versioning your Neo4j graph through entity-state model
 
 
 Versioning graphs is a very commonly asked question http://iansrobinson.com/2014/05/13/time-based-versioned-graphs/[going all the back to 2014^] and in this week's online meetup https://twitter.com/mfalcier[Marco Falcier^] and https://twitter.com/ziotob[Alberto D'Este^] presented their approach to solving the problem.
@@ -73,9 +73,9 @@ Versioning graphs is a very commonly asked question http://iansrobinson.com/2014
 youtube::APC1vptFJoU[type={type}]
 
 
-Their project https://github.com/h-omer/neo4j-versioner-core[Neo4j Versioner Core^] provides a collection of procedures to help developers to manage the entity state model, by creating, updating, and querying the graph. 
+Their project https://github.com/h-omer/neo4j-versioner-core[Neo4j Versioner Core^] provides a collection of procedures to help developers to manage the entity state model, by creating, updating, and querying the graph.
 
-If you're dealing with IoT devices, shopping carts, or trading positions this talk is well worth watching. 
+If you're dealing with IoT devices, shopping carts, or trading positions this talk is well worth watching.
 
 
 ++++
@@ -95,7 +95,7 @@ Learn about versioning graphs with @mfalcier and @ziotob's Neo4 Versioner Core i
 * Nir Avrahamov wrote the https://neo4j.com/blog/machine-learning-graphs-fake-news-epidemic-part-2/[2nd part of the Machine Learning, Graphs and the Fake News Epidemic series^]. In this article Nir introduces the news graph which can be used to detect controversial articles.
 
 
-* https://twitter.com/TobiasNyholm[Tobias Nyholm^] introduces SymfonyNeo4jBundle, https://www.sitepoint.com/introducing-the-neo4j-symfony-bundle/[Neo4j Symfony bundle^], which aims to provide a smooth integration between Neo4j and https://symfony.com/[Symfony^]. It wraps the PHP community client by Graphaware and creates a solid Symfony experience. Thanks to the WebProfiler integration, you will see all your database calls, all the queries and their results. 
+* https://twitter.com/TobiasNyholm[Tobias Nyholm^] introduces SymfonyNeo4jBundle, https://www.sitepoint.com/introducing-the-neo4j-symfony-bundle/[Neo4j Symfony bundle^], which aims to provide a smooth integration between Neo4j and https://symfony.com/[Symfony^]. It wraps the PHP community client by Graphaware and creates a solid Symfony experience. Thanks to the WebProfiler integration, you will see all your database calls, all the queries and their results.
 
 
 [role="image-heading"]
@@ -114,7 +114,7 @@ SymfonyNeo4jBundle - The Neo4j Symfony bundle
 * https://twitter.com/malwaresoup[Andy Moore^] wrote up https://www.malwaresoup.com/sysmon-and-neo4j/amp/[Sysmon and Neo4j^] in which he shows how to combine the ELK stack with Neo4j to visualize potentially interesting data points identified during threat hunting campaigns.
 
 
-* https://twitter.com/stabbymcduck[Regina Imhoff^] shared the slides from https://speakerdeck.com/stabbymcduck/graph-databases-plus-neo4j[Graph Databases + Neo4j^] which shows an example of using Neo4j to model the manufacturing and sales of yarn. 
+* https://twitter.com/stabbymcduck[Regina Imhoff^] shared the slides from https://speakerdeck.com/stabbymcduck/graph-databases-plus-neo4j[Graph Databases + Neo4j^] which shows an example of using Neo4j to model the manufacturing and sales of yarn.
 
 
 * https://twitter.com/yworks[yFiles^] have created https://www.youtube.com/watch?v=06XP8QgR2wM[an intro video^] showing how to use their https://www.yworks.com/neo4j-explorer/[Neo4j Explorer^] tool. If you're interested in graph visualisation you'll enjoy watching this one.
@@ -146,7 +146,7 @@ Learn about threat hunting, @yworks Neo4j explorer, and Power BI in this week's 
 It's time for another trip to StackOverflow to see what people are asking about over there.
 
 
-* Max De Marzi published https://maxdemarzi.com/2017/08/11/finding-triplets-with-neo4j/[Finding triplets with Neo4j^] - in response to https://stackoverflow.com/questions/45541495/finding-triplets-having-highest-common-relationships-in-neo4j[the StackOverflow question of the same title^]. 
+* Max De Marzi published https://maxdemarzi.com/2017/08/11/finding-triplets-with-neo4j/[Finding triplets with Neo4j^] - in response to https://stackoverflow.com/questions/45541495/finding-triplets-having-highest-common-relationships-in-neo4j[the StackOverflow question of the same title^].
 
 
 * Mathew asks https://stackoverflow.com/questions/45544845/how-to-find-the-common-value-in-a-property-array[how to find common values in property arrays^] that exist on multiple nodes.
@@ -170,7 +170,7 @@ Finding triples, common values in property arrays, and creating dynamic relation
 What’s happening next week in the world of graph databases?
 
 
-* On Wednesday, August 16, 2017 Ashwin Pingali will present https://www.meetup.com/Graph-Nerds-of-Boulder/events/242383676/[Blockchain as a Graph^] at the https://www.meetup.com/Graph-Nerds-of-Boulder/[Graph Nerds of Boulder meetup^]. 
+* On Wednesday, August 16, 2017 Ashwin Pingali will present https://www.meetup.com/Graph-Nerds-of-Boulder/events/242383676/[Blockchain as a Graph^] at the https://www.meetup.com/Graph-Nerds-of-Boulder/[Graph Nerds of Boulder meetup^].
 
 
 * Also on Wednesday, August 16, 2017 https://twitter.com/cailliaup[Pieter Cailliau^] will present https://www.meetup.com/graphdb-london/events/242057578/[Real-time Recommender Systems Made Easy with Neo4j^] at the https://www.meetup.com/graphdb-london/[London Neo4j meetup^].
@@ -184,7 +184,7 @@ My favourite tweet this week was by my colleague https://twitter.com/ryguyrg[Rya
 tweet::894730665316331520[type={type}]
 
 
-Don't forget to RT if you liked it too. 
+Don't forget to RT if you liked it too.
 
 
 That’s all for this week. Have a great weekend!
