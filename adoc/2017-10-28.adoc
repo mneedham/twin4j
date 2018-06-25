@@ -29,13 +29,13 @@ This Week in Neo4j – 3 June 2017
 ////
 
 
-Welcome to this week in Neo4j where we round up what's been happening in the world of graph databases in the last 7 days. 
+Welcome to this week in Neo4j where we round up what's been happening in the world of graph databases in the last 7 days.
 
 
 === Featured Community Member: Ray Bernard and Jennifer Webb
 
 
-This week we have two featured community members: Ray Bernard and Jennifer Webb, co-founders of Suprfanz, a tool that uses data science techniques and graph theory with Neo4j to generate live event attendance from social media platforms, email, and SMS.
+This week we have two featured community members: https://twitter.com/suprfanz[Ray Bernard^] and https://twitter.com/jenwebbdev[Jennifer Webb^], co-founders of Suprfanz, a tool that uses data science techniques and graph theory with Neo4j to generate live event attendance from social media platforms, email, and SMS.
 
 
 [role="image-heading"]
@@ -51,7 +51,7 @@ Ray Bernard and Jennifer Webb - This Week's Featured Community Members
 ++++
 
 
-Ray and Jennifer were at GraphConnect NYC 2017 this week and created a https://www.youtube.com/watch?v=r2_iKahY4l8&feature=youtu.be[Graph Karaoke machine^] which was a big hit in the Developer Zone. 
+Ray and Jennifer were at GraphConnect NYC 2017 this week and created a https://www.youtube.com/watch?v=r2_iKahY4l8&feature=youtu.be[Graph Karaoke machine^] which was a big hit in the Developer Zone.
 
 
 We've previously featured their talk https://www.youtube.com/watch?v=fz6kdkT0D38&feature=youtu.be[Data Science in Practice: Using the Facebook API and Neo4J to Drive Real World Attendance to Events^] in https://neo4j.com/tag/twin4j/[#twin4j^], a talk they'll also be giving at the https://conferences.oreilly.com/strata/strata-ca/public/schedule/speaker/298225?locale=zh[Strata Data Conference on March 6th 2018^].
@@ -99,25 +99,25 @@ The Neo4j Graph Platform
 ++++
 
 
-You can download Neo4j 3.3 from https://neo4j.com/download/[the normal place^]. This is the first release of the Neo4j Desktop which makes it even easier to get up and running so give it a try and let us know how you get on by sending an email to devrel@neo4j.com. 
+You can download Neo4j 3.3 from https://neo4j.com/download/[the normal place^]. This is the first release of the Neo4j Desktop which makes it even easier to get up and running so give it a try and let us know how you get on by sending an email to devrel@neo4j.com.
 
 
-We also released https://github.com/neo4j-contrib/neo4j-graph-algorithms/releases/tag/3.3.0.0[a new version of graph algorithms^] which now has support for huge graphs as well as the TriangleCounting/Triangle-Coefficients and Louvain Clustering algorithms. 
+We also released https://github.com/neo4j-contrib/neo4j-graph-algorithms/releases/tag/3.3.0.0[a new version of graph algorithms^] which now has support for huge graphs as well as the TriangleCounting/Triangle-Coefficients and Louvain Clustering algorithms.
 
 
 Finally there are new goodies to play with in the https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/tag/3.3.0.1[APOC fall release^]. This release sees lots of new features including a procedure to access other databases via Bolt and support for multi value JSON sources.
 
 
-=== Knowledge Graphs, Graph Versioning, 
+=== Knowledge Graphs, Graph Versioning,
 
 
-* John Singer has http://www.dataversity.net/knowledge-maps-structure-versus-meaning/[another installment^] in his series on knowledge graphs. In this article he considers what meaning is and how software  can know what something means. 
+* John Singer has http://www.dataversity.net/knowledge-maps-structure-versus-meaning/[another installment^] in his series on knowledge graphs. In this article he considers what meaning is and how software  can know what something means.
 
 
-* In https://www.feststelltaste.de/a-graphical-approach-towards-bounded-contexts/[A graph(ical) approach towards Bounded Contexts^] https://twitter.com/feststelltaste[Markus Harrer^] shows how to use jQAssistant to work out where intertwined components can be cut into separate ones. 
+* In https://www.feststelltaste.de/a-graphical-approach-towards-bounded-contexts/[A graph(ical) approach towards Bounded Contexts^] https://twitter.com/feststelltaste[Markus Harrer^] shows how to use jQAssistant to work out where intertwined components can be cut into separate ones.
 
 
-* This week on the podcast https://twitter.com/rvanbruggen[Rik^] http://blog.bruggen.com/2017/10/podcast-interview-with-marco-falcier.html[interviewed Marco Falcier and Alberto d'Este^], creators of Neo4j Versioner - a collection of procedures, aimed to help developers to manage the Entity-State model, by creating, updating and querying the graph. They talk about Marco and Alberto's work on the JDBC connector, graph modeling, and of course Neo4j Versioner. 
+* This week on the podcast https://twitter.com/rvanbruggen[Rik^] http://blog.bruggen.com/2017/10/podcast-interview-with-marco-falcier.html[interviewed Marco Falcier and Alberto d'Este^], creators of Neo4j Versioner - a collection of procedures, aimed to help developers to manage the Entity-State model, by creating, updating and querying the graph. They talk about Marco and Alberto's work on the JDBC connector, graph modeling, and of course Neo4j Versioner.
 
 === Next Week
 
@@ -127,7 +127,7 @@ What’s happening next week in the world of graph databases?
 
 [options="header"]
 |=========================================================
-|Date |Title | Group | Speaker 
+|Date |Title | Group | Speaker
 
 
 | October 30th 2017 | https://www.meetup.com/graphdb-sf/events/243887779[All about GRAND Stack: GraphQL, React, Apollo, and Neo4j Database^] | https://www.meetup.com/graphdb-sf[Graph Database - San Francisco^] | http://www.twitter.com/lyonwj[William Lyon^]
@@ -151,7 +151,7 @@ My favourite tweet this week was by https://twitter.com/Suprfanz[Suprfanz^]:
 tweet::923576525579939840[type={type}]
 
 
-Don't forget to RT if you liked it too. 
+Don't forget to RT if you liked it too.
 
 
 That’s all for this week. Have a great weekend!

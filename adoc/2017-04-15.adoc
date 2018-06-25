@@ -28,7 +28,7 @@ This Week in Neo4j – 15 April 2017
 ////
 
 
-Welcome to this week in Neo4j where we round up what's been happening in the world of graph databases in the last 7 days. 
+Welcome to this week in Neo4j where we round up what's been happening in the world of graph databases in the last 7 days.
 
 
 === Featured Community Members: Ashley Sun and Rob Schoening
@@ -48,10 +48,10 @@ Ashley Sun and Rob Schoening
 ++++
 
 
-This week's featured community members are part of Lending Club's engineering team and been publishing several open-source tools for dev-ops to manage a vast variety of service and operations information.
+This week's featured community members, https://twitter.com/ashleycsun[Ashley Sun^] and https://twitter.com/rschoening[Rob Schoening^], are part of Lending Club's engineering team and been publishing several open-source tools for dev-ops to manage a vast variety of service and operations information.
 
 
-They have https://neo4j.com/blog/managing-microservices-neo4j/[presented their early work at GraphConnect] and continue to evolve tools like https://github.com/LendingClub/macgyver[MacGyver], https://github.com/LendingClub/mercator[Mercator] and https://github.com/LendingClub/neorx[neorx, a reactive driver for Neo4j's http API]. 
+They have https://neo4j.com/blog/managing-microservices-neo4j/[presented their early work at GraphConnect] and continue to evolve tools like https://github.com/LendingClub/macgyver[MacGyver], https://github.com/LendingClub/mercator[Mercator] and https://github.com/LendingClub/neorx[neorx, a reactive driver for Neo4j's http API].
 
 
 link:https://twitter.com/ryguyrg[Ryan Boyd^] demoed an extension to Mercator in this week's https://www.youtube.com/watch?v=cBFCb172vLU[webinar on IT-Operations] that tracks information from AWS ECS.
@@ -78,7 +78,7 @@ Members of the ICIJ and Süddeutsche Zeitung team celebrate
 ++++
 
 
-Congratulations to our friends at the link:https://twitter.com/ICIJorg[ICIJ^] who link:https://www.icij.org/blog/2017/04/panama-papers-wins-pulitzer-prize[won the Pulitzer prize for explanatory reporting^] for their work on the link:https://neo4j.com/blog/analyzing-panama-papers-neo4j/[Panama Papers^].  
+Congratulations to our friends at the link:https://twitter.com/ICIJorg[ICIJ^] who link:https://www.icij.org/blog/2017/04/panama-papers-wins-pulitzer-prize[won the Pulitzer prize for explanatory reporting^] for their work on the link:https://neo4j.com/blog/analyzing-panama-papers-neo4j/[Panama Papers^].
 
 
 To learn more about their work you can watch link:https://twitter.com/cabralens[Mar Cabra^]'s link:https://neo4j.com/blog/icij-neo4j-unravel-panama-papers/[talk at GraphConnect 2016^].
@@ -103,10 +103,10 @@ The Panama Papers Neo4j Sandbox
 ++++
 
 
-If you want to get hands on with the Panama Papers data we've recently released a Panama Papers guide on the link:https://neo4j.com/sandbox[Neo4j Sandbox^]. 
+If you want to get hands on with the Panama Papers data we've recently released a Panama Papers guide on the link:https://neo4j.com/sandbox[Neo4j Sandbox^].
 
 
-Create an account and within minutes you can explore the network of offshore companies and their shareholders. Let us know how you get on by tweeting with link:https://twitter.com/search?q=%23neo4j&src=typd[#neo4j hashtag^]. 
+Create an account and within minutes you can explore the network of offshore companies and their shareholders. Let us know how you get on by tweeting with link:https://twitter.com/search?q=%23neo4j&src=typd[#neo4j hashtag^].
 
 
 === Star Wars Graph, Twitter clone, Reddit Place
@@ -133,7 +133,7 @@ Create an account and within minutes you can explore the network of offshore com
 These are the interesting Neo4j based projects I found this week:
 
 
-* link:https://github.com/i-am-tom[Tom Harding^] created link:http://npmdaily.com/pkg/neopreen[neopreen^] - a library of formatters and combinators to simplify working with data returned by the Neo4j driver. 
+* link:https://github.com/i-am-tom[Tom Harding^] created link:http://npmdaily.com/pkg/neopreen[neopreen^] - a library of formatters and combinators to simplify working with data returned by the Neo4j driver.
 
 
 * Robbie1977 created link:https://github.com/Robbie1977/docker-neo4j-knowledgebase[docker-neo4j-knowledgebase^] - a Neo4j Docker image containing the link:https://www.virtualflybrain.org/site/vfb_site/home.htm[VirtualFlyBrain.org KnowledgeBase^], a hub for neural anatomy and imaging data.
@@ -168,6 +168,6 @@ My favorite tweet this week was by link:https://twitter.com/NathanHDize[Nathan D
 
 
 
-That’s all for this week. Have a great Easter weekend. 
+That’s all for this week. Have a great Easter weekend.
 
 Cheers, Mark

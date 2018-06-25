@@ -8,7 +8,8 @@ I'm link:https://twitter.com/markhneedham[@markhneedham, window="_blank"] on Twi
 [[featured-community-member]]
 === Featured Community Member: Johannes Unterstein
 
-In link:https://www.meetup.com/Neo4j-Online-Meetup/events/238023188/[last week's online meetup, window="_blank"] Mesosphere's link:https://twitter.com/unterstein[Johannes Unterstein, window="_blank"] showed us how to get a link:https://neo4j.com/docs/operations-manual/current/clustering/causal-clustering/?ref=twin4j[Neo4j causal cluster, window="_blank"] up and running on link:https://dcos.io/[DC/OS, window="_blank"].
+This week's featured community member is Mesosphere's link:https://twitter.com/unterstein[Johannes Unterstein^].
+In link:https://www.meetup.com/Neo4j-Online-Meetup/events/238023188/[last week's online meetup, window="_blank"] Johannes showed us how to get a link:https://neo4j.com/docs/operations-manual/current/clustering/causal-clustering/?ref=twin4j[Neo4j causal cluster, window="_blank"] up and running on link:https://dcos.io/[DC/OS, window="_blank"].
 
 ++++
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qvJ7V33NfsA" frameborder="0" allowfullscreen></iframe>

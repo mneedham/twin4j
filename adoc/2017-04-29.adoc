@@ -28,7 +28,7 @@ This Week in Neo4j – 29 April 2017
 ////
 
 
-Welcome to this week in Neo4j where we round up what's been happening in the world of graph databases in the last 7 days. 
+Welcome to this week in Neo4j where we round up what's been happening in the world of graph databases in the last 7 days.
 
 
 But before we begin, a quick announcement from us, the Neo4j Developer Relations team.
@@ -37,13 +37,13 @@ But before we begin, a quick announcement from us, the Neo4j Developer Relations
 === Developer Zone at GraphConnect Europe 2017
 
 
-To provide the best developer experience at our http://graphconnect.com[GraphConnect^] conference in London, on May 11th 2017, we will open a dedicated *Developer Zone*. 
+To provide the best developer experience at our http://graphconnect.com[GraphConnect^] conference in London, on May 11th 2017, we will open a dedicated *Developer Zone*.
 
 
-We will all be joined by Neo4j engineers, eager to answer your questions and talk about cool stuff you can do with Neo4j. 
+We will all be joined by Neo4j engineers, eager to answer your questions and talk about cool stuff you can do with Neo4j.
 
 
-So if you can make it to London for GraphConnect, don't miss out for the best experience of the show - the Developer Zone. You can https://graphconnect-europe2017.eventbrite.com?discount=DEVZONE30[register with the *DEVZONE30* discount for 30% off^], or send an email to mailto:devrel@neo4j.com[devrel@neo4j.com] to get one of the few free or 50% off tickets. 
+So if you can make it to London for GraphConnect, don't miss out for the best experience of the show - the Developer Zone. You can https://graphconnect-europe2017.eventbrite.com?discount=DEVZONE30[register with the *DEVZONE30* discount for 30% off^], or send an email to mailto:devrel@neo4j.com[devrel@neo4j.com] to get one of the few free or 50% off tickets.
 
 
 === Featured Community Member: Michael Moussa
@@ -65,10 +65,10 @@ This week's featured community member - Michael Moussa
 ++++
 
 
-https://twitter.com/michaelmoussa[Michael^] has been active for quite a while in the Neo4j community, presenting introductions to Neo4j at multiple PHP conferences. Last week he presented at the https://github.com/michaelmoussa/talks/tree/master/intro-to-graph-databases-with-neo4j/lonestar2017[Lone Star PHP Conference in Dallas, TX^]. 
+https://twitter.com/michaelmoussa[Michael Moussa^] has been active for quite a while in the Neo4j community, presenting introductions to Neo4j at multiple PHP conferences. Last week he presented at the https://github.com/michaelmoussa/talks/tree/master/intro-to-graph-databases-with-neo4j/lonestar2017[Lone Star PHP Conference in Dallas, TX^]. 
 
 
-He's also contributed to PHP related projects in the Neo4j community and answered questions in our open channels. 
+He's also contributed to PHP related projects in the Neo4j community and answered questions in our open channels.
 
 
 
@@ -76,10 +76,10 @@ He's also contributed to PHP related projects in the Neo4j community and answere
 === Last few days of APOC Awareness Month
 
 
-We're in the last days of the https://neo4j.com/blog/april-is-apoc-awareness-month/[APOC Awareness Month^] so if you haven't published your article, *you have until Monday evening* (May 1st might be a good day off to work on this). 
+We're in the last days of the https://neo4j.com/blog/april-is-apoc-awareness-month/[APOC Awareness Month^] so if you haven't published your article, *you have until Monday evening* (May 1st might be a good day off to work on this).
 
 
-This week https://twitter.com/alexotter89[Alessio di Angelis^] won his prize by publishing a https://twitter.com/alexotter89/status/857506491842125825[really cool piece about importing and routing OpenStreetMap data using APOC^]. 
+This week https://twitter.com/alexotter89[Alessio di Angelis^] won his prize by publishing a https://twitter.com/alexotter89/status/857506491842125825[really cool piece about importing and routing OpenStreetMap data using APOC^].
 
 
 https://twitter.com/tb_tomaz[Tomaz Bratanic^] continued his APOC algorithm series and wrote this time about https://tbgraph.wordpress.com/2017/04/24/neo4j-apoc-graph-algorithms-part-2/[similarities, cluster finding and visualizing them with virtual nodes and relationships^]. A very interesting read!
@@ -88,7 +88,7 @@ https://twitter.com/tb_tomaz[Tomaz Bratanic^] continued his APOC algorithm serie
 === Python, PyData, Flask, NeoModel, and Neo4j
 
 
-https://twitter.com/technige[Nigel Small^], author of http://py2neo.org/v3/[py2neo^] and tech lead of the drivers team visited Amsterdam a couple of weeks ago to present "A Pythonic Tour of Neo4j and the Cypher Query Language" at the https://pydata.org/amsterdam2017/[PyData conference^]. 
+https://twitter.com/technige[Nigel Small^], author of http://py2neo.org/v3/[py2neo^] and tech lead of the drivers team visited Amsterdam a couple of weeks ago to present "A Pythonic Tour of Neo4j and the Cypher Query Language" at the https://pydata.org/amsterdam2017/[PyData conference^].
 
 
 ++++
@@ -99,7 +99,7 @@ https://twitter.com/technige[Nigel Small^], author of http://py2neo.org/v3/[py2n
 Mostafa Moradian published https://github.com/mostafa/grest[gRest^],  a quickstart repository to build applications with Python, Flask, and NeoModel - a Django-like OGM for Neo4j.
 
 
-=== The GraphConnect schedule is a graph 
+=== The GraphConnect schedule is a graph
 
 
 ++++
@@ -118,7 +118,7 @@ The GraphConnect Europe 2017 Schedule
 ++++
 
 
-Besides interviewing our community for the http://blog.bruggen.com/search/label/podcast[Graphistania Podcast^] and creating Graph-Karaokes, http://twitter.com/rvanbruggen[Rik van Bruggen^] also loves to recreate event schedules in Neo4j, for easy querying and recommendations. 
+Besides interviewing our community for the http://blog.bruggen.com/search/label/podcast[Graphistania Podcast^] and creating Graph-Karaokes, http://twitter.com/rvanbruggen[Rik van Bruggen^] also loves to recreate event schedules in Neo4j, for easy querying and recommendations.
 
 
 GraphConnect is no exception and you can now http://blog.bruggen.com/2017/04/graphconnect-europe-2017-schedule-graph.html[view the schedule as a graph^].
@@ -139,7 +139,7 @@ GraphConnect is no exception and you can now http://blog.bruggen.com/2017/04/gra
 * https://twitter.com/CSkardon[Chris Skardon^] explains step by step how to manually set up a causal cluster with Neo4 3.1.3 on Microsoft Azure. Enjoy his funny observations and comments in his blog post: link:http://geekswithblogs.net/cskardon/archive/2017/04/26/so-you-want-to-go-causal-neo4j-in-azure-sure.aspx[So you want to go Causal Neo4j in Azure? Sure we can do that^]
 
 
-* Magnus Wallberg wrote up the http://carlmagnuswallberg.wixsite.com/home/single-post/2017/04/14/The-dawn-of-a-new-CT-format-at-PhUSE-CSS[PhUSE conference^] where he attended a workshop led by Tim Williams comparing RDF and graphs. 
+* Magnus Wallberg wrote up the http://carlmagnuswallberg.wixsite.com/home/single-post/2017/04/14/The-dawn-of-a-new-CT-format-at-PhUSE-CSS[PhUSE conference^] where he attended a workshop led by Tim Williams comparing RDF and graphs.
 
 
 * If you're looking for a job where you can work with Neo4j full time, Matt Andrews at the Financial Times is hiring:
@@ -157,22 +157,22 @@ GraphConnect is no exception and you can now http://blog.bruggen.com/2017/04/gra
 === The Mattermark GraphQL API Graph
 
 
-GraphQL has been on our minds, lately. So, when the Mattermark GraphQL API became available, https://twitter.com/lyonwj[Will Lyon^] looked into it and created this insightful blog post http://www.lyonwj.com/2017/04/27/mattermark-api-graphql-neo4j-startup-funding/[on analysing local startup ecosystems] based on their data. 
+GraphQL has been on our minds, lately. So, when the Mattermark GraphQL API became available, https://twitter.com/lyonwj[Will Lyon^] looked into it and created this insightful blog post http://www.lyonwj.com/2017/04/27/mattermark-api-graphql-neo4j-startup-funding/[on analysing local startup ecosystems] based on their data.
 
 
-He uses https://github.com/apollographql/apollo-client[ApolloClient^] to access the API and turn the data of startups based in his home state of Montana into a graph in Neo4j. 
+He uses https://github.com/apollographql/apollo-client[ApolloClient^] to access the API and turn the data of startups based in his home state of Montana into a graph in Neo4j.
 
-Will then goes on to use Cypher queries to answer questions such as: 
+Will then goes on to use Cypher queries to answer questions such as:
 
 
-* What are the companies in Montana that are raising venture capital? 
-* Who are the founders? 
+* What are the companies in Montana that are raising venture capital?
+* Who are the founders?
 * Who is funding them and what industries are they in?_
 
 
 === Online Meetup: Learning Chinese with Neo4j
 
-In this week's online meetup Fernando Izquierdo showed us how to learn Chinese using Neo4j. 
+In this week's online meetup Fernando Izquierdo showed us how to learn Chinese using Neo4j.
 
 
 ++++
@@ -226,6 +226,6 @@ My favorite tweet this week was by link:https://twitter.com/cmdel[Christos Deliv
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 ++++
 
-That’s all for this week. Have a great weekend. 
+That’s all for this week. Have a great weekend.
 
 Cheers, Michael & Mark
