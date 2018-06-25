@@ -29,13 +29,13 @@ This Week in Neo4j – 3 June 2017
 ////
 
 
-Welcome to this week in Neo4j where we round up what's been happening in the world of graph databases in the last 7 days. 
+Welcome to this week in Neo4j where we round up what's been happening in the world of graph databases in the last 7 days.
 
 
 This week we have new about running Cypher on Apache Spark, an introduction to APOC, and user path analysis using Neo4j.
 
 
-=== Featured Community Member: Person
+=== Featured Community Member: Rik Van Bruggen
 
 
 This week’s featured community member is my colleague https://twitter.com/rvanbruggen[Rik Van Bruggen^], Regional VP of Sales at Neo4 and founder of the https://soundcloud.com/graphistania[Graphistania podcast^].
@@ -54,10 +54,10 @@ Rik Van Bruggen - This Week's Featured Community Member
 ++++
 
 
-Rik has been part of the Neo4j community for over 5 years, and apart from interviewing almost 100 people for his podcast, also did a lot of the early running with the Neo4j London meetup in 2012-2013 - helping to educate the local community. 
+Rik has been part of the Neo4j community for over 5 years, and apart from interviewing almost 100 people for his podcast, also did a lot of the early running with the Neo4j London meetup in 2012-2013 - helping to educate the local community.
 
 
-Rik authors http://blog.bruggen.com/[a popular blog^] and wrote the https://www.amazon.co.uk/Learning-Neo4j-Rik-Van-Bruggen/dp/1849517169[Learning Neo4j book^] in 2014, which many people have used as their first introduction to the world of graph databases. 
+Rik authors http://blog.bruggen.com/[a popular blog^] and wrote the https://www.amazon.co.uk/Learning-Neo4j-Rik-Van-Bruggen/dp/1849517169[Learning Neo4j book^] in 2014, which many people have used as their first introduction to the world of graph databases.
 
 
 Rik's most recent innovation is https://www.youtube.com/watch?v=aj1_PEpmMcQ&index=3&list=PLafMLthLibc8osvCRXK7Jqwqm-S8iAD91[producing short videos^] with his GoPro at GraphConnect conferences so that people following the conference online can feel part of the action. He's also facilitated many training sessions and https://www.youtube.com/watch?v=K6vzdkG9yzM[presented^] https://www.youtube.com/watch?v=gL0kVohVuZk[at^] https://www.youtube.com/watch?v=1d7g7wi3TnA[countless^] https://www.youtube.com/watch?v=J0QuehShO5c[meetups^].
@@ -88,7 +88,7 @@ Cypher Is Now Available for Apache Spark
 Cypher for Apache Spark enables the execution of Cypher queries on property graphs stored in an Apache Spark cluster in the same way that SparkSQL allows for the querying of tabular data
 
 
-The code for the project is https://github.com/opencypher/cypher-for-apache-spark[available on GitHub^] so give it a try and let us know how you get on. 
+The code for the project is https://github.com/opencypher/cypher-for-apache-spark[available on GitHub^] so give it a try and let us know how you get on.
 
 
 === Asset management, traversal timeouts, Intro to APOC
@@ -139,7 +139,7 @@ What’s happening next week in the world of graph databases?
 
 [options="header"]
 |=========================================================
-|Date |Title | Group | Speaker 
+|Date |Title | Group | Speaker
 
 
 | November 8th 2017 | https://www.meetup.com/graphdb-lille/events/244711680/[InterActor : du graphe aux tableaux de bord, il n'y a qu'un pas !^] | https://www.meetup.com/graphdb-lille[
@@ -167,7 +167,7 @@ My favourite tweet this week was by https://twitter.com/nudro[Catherine Ordun^]:
 tweet::925776787241652225[type={type}]
 
 
-Don't forget to RT if you liked it too. 
+Don't forget to RT if you liked it too.
 
 
 That’s all for this week. Have a great weekend!
