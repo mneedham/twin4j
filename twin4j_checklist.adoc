@@ -17,7 +17,7 @@ ft <twitter-handles> + #<topics>
 
 ```
 Sat 00:00 (community member)  [x]
-Sat 05:00 (slides)            [x]
+Sat 05:00 (slides)            [ ]
 Sat 14:00                     [x]
 Sat 21:00 (meetups)           [x]
 Sun 11:00                     [x]
@@ -25,28 +25,30 @@ Sun 16:00                     [x]
 Sun 23:00                     [x]
 Mon 02:00                     [x]
 Tue 03:00 (catchup)           [x]
-Tue 12:00                     [ ]
+Tue 12:00                     [x]
 
-Facebook                      [x]
-Google+                       [x]
-LinkedIn                      [x]
+Facebook                      [ ]
+Google+                       [ ]
+LinkedIn                      [ ]
 ```
 
 ```
-This week's long over due #Neo4j featured community member is the author of @jqassistant, @dirkmahler
+This week's #Neo4j featured community member is @Chucheria
 
-https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc/?ref=twitter#featured-community-member
+https://neo4j.com/blog/this-week-in-neo4j-world-cup-graph-and-graphql-api-tuning-cypher-queries-querying-spatial-datapoints/?ref=twitter#featured-community-member
 
 #twin4j
 ```
 
-https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc
+https://neo4j.com/blog/this-week-in-neo4j-world-cup-graph-and-graphql-api-tuning-cypher-queries-querying-spatial-datapoints/
+
+https://neo4j.com/blog/this-week-in-neo4j-world-cup-graph-and-graphql-api-tuning-cypher-queries-querying-spatial-datapoints/#projects-knowledge-mortality-rdf-graph
 
 
 ```
-Catch up with what happened last week in #Neo4j, including GRANDstack starter kit, Py2neo Release, Loading JSON APIs with APOC, Analysing the Lightning Network, @graph_aware’s 5th birthday,  and more...
+Catch up with what happened last week in #Neo4j, including the World Cup Graph and Graph QL API, the return of the Intro to Graph YouTube series, and more!
 
-https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc/?ref=twitter
+https://neo4j.com/blog/this-week-in-neo4j-world-cup-graph-and-graphql-api-tuning-cypher-queries-querying-spatial-datapoints/?ref=twitter
 
 via @markhneedham @mesirii
 
@@ -54,82 +56,71 @@ via @markhneedham @mesirii
 ```
 
 ```
-In this week's #twin4j @lyonwj releases the GRANDstack starter project and announces The GRANDstack Online Hackathon For @graphqleu 2018
+In this week's #twin4j Andrew Bowman has a brilliant article in which he explains how to tune Cypher queries by understanding cardinality.
 
-https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc/?ref=twitter#this-week-grandstack
+https://neo4j.com/blog/this-week-in-neo4j-world-cup-graph-and-graphql-api-tuning-cypher-queries-querying-spatial-datapoints/?ref=twitter#knowledge-base
 
 #twin4j
 ```
 
 ```
-In this week's #twin4j @glennsarti goes extremely meta and shows how to create a Neo4j graph of the Powershell help documents using Powershell!
+In this week's #twin4j we have @github projects to play with including include a knowledge graph that can be used with Microsoft’s LUIS NLU or google’s Dialogflow.com NLU
 
-https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc/?ref=twitter#lightning-reco-powershell
-
-#neo4j
-```
-
-
-```
-In this week's #twin4j @markhneedham and the Neo4j customer success team show how to import JSON APIs into #Neo4j using the #APOC library
-
-https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc/?ref=twitter#json-apis-apoc
-
-#neo4j #strava #zendesk
-```
-
-```
-In this week's #twin4j @JMHReif explains how to add new plugins to Neo4j and then goes through some of her favourite procedures from the popular APOC library.
-
-https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc/?ref=twitter#spring-data-neo4j-documents-gopher
+https://neo4j.com/blog/this-week-in-neo4j-world-cup-graph-and-graphql-api-tuning-cypher-queries-querying-spatial-datapoints/?ref=twitter#projects-knowledge-mortality-rdf-graph
 
 #neo4j
 ```
 
-```
-In this week's #twin4j @technige releases v4 of #py2neo. You can now export results from queries to numpy, pandas, and sympy objects.
 
-https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc/?ref=twitter#podcast
+```
+The World Cup is back and so is the World Cup Graph in this week's #twin4j
+
+https://neo4j.com/blog/this-week-in-neo4j-world-cup-graph-and-graphql-api-tuning-cypher-queries-querying-spatial-datapoints/?ref=twitter#world-cup-graph
+```
+
+```
+In this week's #twin4j we have a #graphql API to go with the World Cup Graph #grandstack
+
+https://neo4j.com/blog/this-week-in-neo4j-world-cup-graph-and-graphql-api-tuning-cypher-queries-querying-spatial-datapoints/?ref=twitter#world-cup-graph-graphql-api
 
 #neo4j
-```
-
-```
-In this week's #twin4j the video from @astroadamh @pydata talk about building a UK Corporate Interest Graph is released
-
-https://neo4j.com/blog/this-week-in-neo4j-release-of-neo4j-etl-tool-uk-corporate-interests-graph-documents-as-graphs/?ref=twitter#pydata
-
 ```
 
 ```
 In this week's #twin4j
 
-https://neo4j.com/blog/this-week-in-neo4j-release-of-neo4j-etl-tool-uk-corporate-interests-graph-documents-as-graphs/?ref=twitter#spring-data-neo4j-documents-gopher
+https://neo4j.com/blog/this-week-in-neo4j-world-cup-graph-and-graphql-api-tuning-cypher-queries-querying-spatial-datapoints/?ref=twitter#aws-clevr-graph-security-engineering
 
-#twin4j #neo4j
+#neo4j
 ```
 
 ```
-In this week's #twin4j
+In this week's #twin4j the Intro to Neo4j YouTube series makes a triumphant return
 
-https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc/?ref=twitter#spring-data-neo4j-documents-gopher
+https://neo4j.com/blog/this-week-in-neo4j-world-cup-graph-and-graphql-api-tuning-cypher-queries-querying-spatial-datapoints/?ref=twitter#intro-graph-databases
 
-#twin4j #neo4j
+```
+
+
+```
+In this week's #twin4j @rvanbruggen teaches us how to write queries against the spatial data type introduced in #Neo4j 3.4
+
+https://neo4j.com/blog/this-week-in-neo4j-world-cup-graph-and-graphql-api-tuning-cypher-queries-querying-spatial-datapoints/?ref=twitter#new-datatypes-open-beer-database
 ```
 
 
 
 ```
-#twin4j - next week we have #neo4j meetups in London, Brussels, and Düsseldorf
+#twin4j - next week we have a #neo4j meetup in London
 
-https://neo4j.com/blog/this-week-in-neo4j-grandstack-starter-kit-py2neo-release-loading-json-apis-with-apoc/?ref=twitter#meetups
-
-```
+https://neo4j.com/blog/this-week-in-neo4j-world-cup-graph-and-graphql-api-tuning-cypher-queries-querying-spatial-datapoints/?ref=twitter#meetups
 
 ```
-This Week in #Neo4j – GRANDstack starter kit, Py2neo Release, Loading JSON APIs with APOC, Analysing the Lightning Network, @graph_aware’s 5th birthday,  and more...
 
-https://www.slideshare.net/neo4j/this-week-in-neo4j-9th-june-2018
+```
+This Week in #Neo4j – World Cup Graph and Graph QL API, Expert Cypher Query Tuning with Andrew Bowman, and the Intro to Neo4j YouTube series is back...
+
+https://www.slideshare.net/neo4j/this-week-in-neo4j-23rd-june-2018
 
 All your graph database news in one handy slide deck!
 
