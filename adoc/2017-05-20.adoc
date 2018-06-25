@@ -28,13 +28,13 @@ This Week in Neo4j – 20 May 2017
 ////
 
 
-Welcome to this week in Neo4j where we round up what's been happening in the world of graph databases in the last 7 days. 
+Welcome to this week in Neo4j where we round up what's been happening in the world of graph databases in the last 7 days.
 
 
 === Featured Community Member: Ben Nussbaum
 
 
-This week's featured community member is Ben Nussbaum, CTO of Neo4j Solution Partner https://www.atomrain.com/[AtomRain^]. 
+This week's featured community member is https://twitter.com/bennussbaum[Ben Nussbaum^], CTO of Neo4j Solution Partner https://www.atomrain.com/[AtomRain^]. 
 
 
 ++++
@@ -53,15 +53,15 @@ Ben Nussbaum - This week's featured community member
 ++++
 
 
-Ben has been an active member of the Neo4j community for the last five years, while building out the https://www.graphgrid.com/[GraphGrid data platform^], which provides hosted Neo4j, graph algorithms, and advanced analytics. 
+Ben has been an active member of the Neo4j community for the last five years, while building out the https://www.graphgrid.com/[GraphGrid data platform^], which provides hosted Neo4j, graph algorithms, and advanced analytics.
 
 
-Ben http://blog.bruggen.com/2016/04/podcast-interview-with-ben-nussbaum.html[appeared^] http://blog.bruggen.com/2016/06/another-podcast-with-ben-nussbaum.html[twice^] on https://twitter.com/rvanbruggen[Rik van Bruggen^]'s https://soundcloud.com/graphistania[Graphistania^] podcast in the first half of 2016 and frequently runs Neo4j training sessions in Los Angeles. 
+Ben http://blog.bruggen.com/2016/04/podcast-interview-with-ben-nussbaum.html[appeared^] http://blog.bruggen.com/2016/06/another-podcast-with-ben-nussbaum.html[twice^] on https://twitter.com/rvanbruggen[Rik van Bruggen^]'s https://soundcloud.com/graphistania[Graphistania^] podcast in the first half of 2016 and frequently runs Neo4j training sessions in Los Angeles.
 
 
-=== The Neo4j GraphQL Community Graph Hackathon 
+=== The Neo4j GraphQL Community Graph Hackathon
 
-My colleague https://twitter.com/lyonwj[Will Lyon^] announced the start of the https://dev-blog.apollodata.com/announcing-the-neo4j-graphql-community-graph-hackathon-c9a94f246c7[Neo4j GraphQL Community Graph hackathon^] which will finish on Monday after the https://graphql-europe.org/[GraphQL-Europe conference^] in Berlin. 
+My colleague https://twitter.com/lyonwj[Will Lyon^] announced the start of the https://dev-blog.apollodata.com/announcing-the-neo4j-graphql-community-graph-hackathon-c9a94f246c7[Neo4j GraphQL Community Graph hackathon^] which will finish on Monday after the https://graphql-europe.org/[GraphQL-Europe conference^] in Berlin.
 
 
 ++++
@@ -70,23 +70,23 @@ My colleague https://twitter.com/lyonwj[Will Lyon^] announced the start of the h
 ++++
 
 
-If you'd like to take part, https://twitter.com/stubailo[Sashko Stubailo^] has created https://github.com/neo4j-graphql/community-graph-starter-kit[the community graph starter kit^] which provides the skeleton of an application that uses the https://github.com/apollographql/apollo-client[Apollo GraphQL client^] to connect to and query the http://graphql.communitygraph.org/[GraphQL community graph^]. 
+If you'd like to take part, https://twitter.com/stubailo[Sashko Stubailo^] has created https://github.com/neo4j-graphql/community-graph-starter-kit[the community graph starter kit^] which provides the skeleton of an application that uses the https://github.com/apollographql/apollo-client[Apollo GraphQL client^] to connect to and query the http://graphql.communitygraph.org/[GraphQL community graph^].
 
 
 === The Salesforce graph, Software analytics, Automated menu planning
 
 
-* https://twitter.com/metadaddy[Pat Patterson^] wrote a cool post showing how to https://streamsets.com/blog/visualizing-analyzing-salesforce-data-neo4j/[analyse Salesforce data using Neo4j^]. Pat shows how to import data using the JDBC connector and then shows how to write a query to find the biggest outstanding opportunity. 
+* https://twitter.com/metadaddy[Pat Patterson^] wrote a cool post showing how to https://streamsets.com/blog/visualizing-analyzing-salesforce-data-neo4j/[analyse Salesforce data using Neo4j^]. Pat shows how to import data using the JDBC connector and then shows how to write a query to find the biggest outstanding opportunity.
 
 
-* https://twitter.com/d_pawlukiewicz[Dariusz Pawlukiewicz^] has been writing a series of posts  on Neo4j and Cypher, and this week shows how to http://foreverframe.net/neo4j-cypher-2-creating-complex-query/[write complex queries^] as well as explaining the http://foreverframe.net/neo4j-cypher-3-union-with-clasuse/[UNION & WITH clauses^]. 
+* https://twitter.com/d_pawlukiewicz[Dariusz Pawlukiewicz^] has been writing a series of posts  on Neo4j and Cypher, and this week shows how to http://foreverframe.net/neo4j-cypher-2-creating-complex-query/[write complex queries^] as well as explaining the http://foreverframe.net/neo4j-cypher-3-union-with-clasuse/[UNION & WITH clauses^].
 
 
 
-* https://twitter.com/feststelltaste[Markus Harrer^], who featured in https://neo4j.com/tag/twin4j/[#twin4j^] on https://neo4j.com/blog/this-week-neo4j-11-march-2017/[11 March 2017^] and https://neo4j.com/blog/this-week-neo4j-18-march-2017/[18 March 2017^], presented https://www.slideshare.net/feststelltaste/software-analytics-for-pragmatists-devops-camp-2017[Software Analytics for Pragmatists^] at https://devops-camp.de/[DevOps Camp 2017^] in Nürnberg. 
+* https://twitter.com/feststelltaste[Markus Harrer^], who featured in https://neo4j.com/tag/twin4j/[#twin4j^] on https://neo4j.com/blog/this-week-neo4j-11-march-2017/[11 March 2017^] and https://neo4j.com/blog/this-week-neo4j-18-march-2017/[18 March 2017^], presented https://www.slideshare.net/feststelltaste/software-analytics-for-pragmatists-devops-camp-2017[Software Analytics for Pragmatists^] at https://devops-camp.de/[DevOps Camp 2017^] in Nürnberg.
 
 
-* https://twitter.com/dirkmahler[Dirk Mahler^] has a very detailed post showing how to https://jqassistant.org/shadows-of-the-past-analysis-of-git-repositories/[analyse Git repositories using jQAssistant^] in all sorts of ways. He shows how to write Cypher queries to find experts in domains and technologies, distribution of development activity, potential hotspots in the code, and much more. 
+* https://twitter.com/dirkmahler[Dirk Mahler^] has a very detailed post showing how to https://jqassistant.org/shadows-of-the-past-analysis-of-git-repositories/[analyse Git repositories using jQAssistant^] in all sorts of ways. He shows how to write Cypher queries to find experts in domains and technologies, distribution of development activity, potential hotspots in the code, and much more.
 
 
 * On the https://techbrunch.gousto.co.uk/[Gousto Tech blog^] https://twitter.com/irenillap[Irene Iriarte^] explains how they've been https://techbrunch.gousto.co.uk/2017/05/18/decyphering-recipes/[combining graph databases and genetic algorithms^] to create an automated menu planning algorithm which produces new recipes for their customers.
@@ -110,8 +110,8 @@ IBM released the results of their  http://www.zdnet.com/pictures/the-state-of-gr
 === Democratising data at Airbnb
 
 
-Following on from their talk at GraphConnect Europe last week, Chris Williams and John Bodley explain how Airbnb have developed Dataportal, a novel data resource search and discovery tool 
-https://medium.com/airbnb-engineering/democratizing-data-at-airbnb-852d76c51770[to make sense of their internal data^]. 
+Following on from their talk at GraphConnect Europe last week, Chris Williams and John Bodley explain how Airbnb have developed Dataportal, a novel data resource search and discovery tool
+https://medium.com/airbnb-engineering/democratizing-data-at-airbnb-852d76c51770[to make sense of their internal data^].
 
 
 ++++
@@ -119,7 +119,7 @@ https://medium.com/airbnb-engineering/democratizing-data-at-airbnb-852d76c51770[
 ++++
 
 
-Dataportal combines Flask, ElasticSearch, and Neo4j to help employees discover and then search data that would usually only be available in team specific silos. 
+Dataportal combines Flask, ElasticSearch, and Neo4j to help employees discover and then search data that would usually only be available in team specific silos.
 
 
 ComputerWorld UK also have a detailed http://www.cio.com/article/3196730/data-management/article.html#tk.rss_all[write up of the talk^].
@@ -127,7 +127,7 @@ ComputerWorld UK also have a detailed http://www.cio.com/article/3196730/data-ma
 
 === Neo4j available on AWS & Azure Marketplace
 
-As of this week Neo4j is now https://neo4j.com/blog/neo4j-microsoft-azure-marketplace-part-1/[available in the Azure Marketplace^] as well as the https://aws.amazon.com/marketplace/pp/B071P26C9D[AWS Marketplace^]. 
+As of this week Neo4j is now https://neo4j.com/blog/neo4j-microsoft-azure-marketplace-part-1/[available in the Azure Marketplace^] as well as the https://aws.amazon.com/marketplace/pp/B071P26C9D[AWS Marketplace^].
 
 
 ++++
@@ -144,19 +144,19 @@ Neo4j is now available in the Azure Marketplace
 ++++
 
 
-If you use either of those cloud providers be sure to give it a try and let us know how you get on. 
+If you use either of those cloud providers be sure to give it a try and let us know how you get on.
 
 === From The Knowledge Base
 
 
-This week from the https://neo4j.com/developer/kb[Neo4j Knowledge Base^] we have an article showing how to https://neo4j.com/developer/kb/how-do-i-compare-two-graphs-for-equality/[compare two graphs for equality^] using Cypher and http://neo4j-contrib.github.io/neo4j-apoc-procedures/#_utilities[APOC's md5 function^]. 
+This week from the https://neo4j.com/developer/kb[Neo4j Knowledge Base^] we have an article showing how to https://neo4j.com/developer/kb/how-do-i-compare-two-graphs-for-equality/[compare two graphs for equality^] using Cypher and http://neo4j-contrib.github.io/neo4j-apoc-procedures/#_utilities[APOC's md5 function^].
 
 
 === On the Podcast: Darko Križić
 
 On the Graphistania podcast this week we have http://blog.bruggen.com/2017/05/podcast-interview-with-darko-krizic.html[an interview with Darko Križić^], the CTO of Neo4j partner https://twitter.com/PRODYNAAG[PRODYNA^].
 
-Darko has been working on Neo4j projects for the last couple of years and chats with Rik about how they got into graph databases at PRODYNA, why graphs work well for modeling complex domain models, and the Cypher query language. 
+Darko has been working on Neo4j projects for the last couple of years and chats with Rik about how they got into graph databases at PRODYNA, why graphs work well for modeling complex domain models, and the Cypher query language.
 
 
 === Tweet of the Week
