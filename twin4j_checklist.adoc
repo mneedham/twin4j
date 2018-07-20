@@ -17,7 +17,7 @@ ft <twitter-handles> + #<topics>
 
 ```
 Sat 00:00 (community member)  [x]
-Sat 05:00 (slides)            [x]
+Sat 05:00 (slides)            [ ]
 Sat 14:00                     [x]
 Sat 21:00 (meetups)           [x]
 Sun 11:00                     [x]
@@ -27,20 +27,20 @@ Mon 02:00                     [x]
 Tue 03:00 (catchup)           [x]
 Tue 12:00                     [x]
 
-Facebook                      [x]
-Google+                       [x]
-LinkedIn                      [x]
+Facebook                      [ ]
+Google+                       [ ]
+LinkedIn                      [ ]
 ```
 
 ```
-This week's #Neo4j featured community member is @santand84
+This week's #Neo4j featured community member is David Fox
 
-https://neo4j.com/blog/this-week-in-neo4j-building-a-dating-site-analyzing-google-analytics-remembering-machine-learning-models/?ref=twitter#featured-community-member
+https://neo4j.com/blog/this-week-in-neo4j-moving-adobe-behance-from-cassandra-to-neo4j-new-go-driver-emil-on-the-new-stack-makers-podcast/?ref=twitter#featured-community-member
 
 #twin4j
 ```
 
-https://neo4j.com/blog/this-week-in-neo4j-building-a-dating-site-analyzing-google-analytics-remembering-machine-learning-models/
+https://neo4j.com/blog/this-week-in-neo4j-moving-adobe-behance-from-cassandra-to-neo4j-new-go-driver-emil-on-the-new-stack-makers-podcast/
 
 https://neo4j.com/blog/this-week-in-neo4j-building-a-dating-site-analyzing-google-analytics-remembering-machine-learning-models/#projects-knowledge-mortality-rdf-graph
 
