@@ -17,7 +17,7 @@ ft <twitter-handles> + #<topics>
 
 ```
 Sat 00:00 (community member)  [x]
-Sat 05:00 (slides)            [ ]
+Sat 05:00 (slides)            []
 Sat 14:00                     [x]
 Sat 21:00 (meetups)           [x]
 Sun 11:00                     [x]
@@ -27,28 +27,27 @@ Mon 02:00                     [x]
 Tue 03:00 (catchup)           [x]
 Tue 12:00                     [x]
 
-Facebook                      [ ]
-Google+                       [ ]
-LinkedIn                      [ ]
+Facebook                      []
+Google+                       []
+LinkedIn                      []
 ```
 
 ```
-This week's #Neo4j featured community member is David Fox
+This week's #Neo4j featured community member is @mckenzma
 
-https://neo4j.com/blog/this-week-in-neo4j-moving-adobe-behance-from-cassandra-to-neo4j-new-go-driver-emil-on-the-new-stack-makers-podcast/?ref=twitter#featured-community-member
+https://neo4j.com/blog/this-week-in-neo4j-exploring-large-knowledge-graphs-analysing-youtube-videos-using-nlp-techniques-data-modelling-for-beginners/?ref=twitter#featured-community-member
 
 #twin4j
 ```
 
-https://neo4j.com/blog/this-week-in-neo4j-moving-adobe-behance-from-cassandra-to-neo4j-new-go-driver-emil-on-the-new-stack-makers-podcast/
+https://neo4j.com/blog/this-week-in-neo4j-exploring-large-knowledge-graphs-analysing-youtube-videos-using-nlp-techniques-data-modelling-for-beginners/
 
-https://neo4j.com/blog/this-week-in-neo4j-building-a-dating-site-analyzing-google-analytics-remembering-machine-learning-models/#projects-knowledge-mortality-rdf-graph
 
 
 ```
-Catch up with what happened last week in #Neo4j, including Building a dating site, Analyzing Google Analytics, Remembering Machine Learning Models
+Catch up with what happened last week in #Neo4j, including a tool for exploring large Knowledge Graphs, analysing YouTube videos using NLP techniques, multiple linear regression on graphs, data modelling for beginners, and tips for using Neo4j SDN and OGM.
 
-https://neo4j.com/blog/this-week-in-neo4j-building-a-dating-site-analyzing-google-analytics-remembering-machine-learning-models/
+https://neo4j.com/blog/this-week-in-neo4j-exploring-large-knowledge-graphs-analysing-youtube-videos-using-nlp-techniques-data-modelling-for-beginners/
 
 via @markhneedham @mesirii
 
@@ -56,50 +55,47 @@ via @markhneedham @mesirii
 ```
 
 ```
-In this week's #twin4j @maxdemarzi shows us how to build a dating website with #Neo4j
+In this week's #twin4j @_phdd shows off some visual graph editing features he added to the Neo4j browser to enable rapid model prototyping and evolution
 
-https://neo4j.com/blog/this-week-in-neo4j-building-a-dating-site-analyzing-google-analytics-remembering-machine-learning-models/?ref=twitter#dating-neo4j
-
-#neo4j
-```
-
-```
-In this week's #twin4j @mesirii shows us how to create and manipulate data structures with APOC
-
-https://neo4j.com/blog/this-week-in-neo4j-building-a-dating-site-analyzing-google-analytics-remembering-machine-learning-models/?ref=twitter#apoc-series
+https://neo4j.com/blog/this-week-in-neo4j-exploring-large-knowledge-graphs-analysing-youtube-videos-using-nlp-techniques-data-modelling-for-beginners/?ref=twitter#articles-1
 
 #neo4j
 ```
 
 ```
-In this week's #twin4j @lassewesth explains how to load European road data into Neo4j and then run path finding queries on the resulting graph.
+In this week's #twin4j @tb_tomaz explains how to use the approximate betweenness centrality algorithm on a Twitter dataset.
 
-https://neo4j.com/blog/this-week-in-neo4j-building-a-dating-site-analyzing-google-analytics-remembering-machine-learning-models/?ref=twitter#european-roads-google-analytics-tibco-spitfire
+https://neo4j.com/blog/this-week-in-neo4j-exploring-large-knowledge-graphs-analysing-youtube-videos-using-nlp-techniques-data-modelling-for-beginners/?ref=twitter#articles-1
+
+#neo4j
 ```
 
 ```
-In this week's #twin4j @ML_auren explains the internals of the linear progression procedures she built
+In this week's #twin4j @ikwattro uses NLP tools to analyse the Neo4j Youtube channel video transcripts, extract some insights and show what type of business value such analysis can bring.
 
-https://neo4j.com/blog/this-week-in-neo4j-building-a-dating-site-analyzing-google-analytics-remembering-machine-learning-models/?ref=twitter#ml-models
+https://neo4j.com/blog/this-week-in-neo4j-exploring-large-knowledge-graphs-analysing-youtube-videos-using-nlp-techniques-data-modelling-for-beginners/?ref=twitter#articles-2
+```
+
+```
+In this week's #twin4j @bwmerkl takes us through the modeling decisions you might have to make if you were designing a graph for an email fraud detection application and explains common pitfalls that we should try to avoid.
+
+https://neo4j.com/blog/this-week-in-neo4j-exploring-large-knowledge-graphs-analysing-youtube-videos-using-nlp-techniques-data-modelling-for-beginners/?ref=twitter#feature-2
 
 #twin4j
 ```
 
 ```
-In this week's #twin4j Ajinkya Kale tells us how he got started with Neo4j and about his vision for machine learning on knowledge graphs.
+In this week's #twin4j Sebastian Bischoff and Fabian Stolp presented MetaExp, a system they built that assists the user during the exploration of large knowledge graphs, given two sets of initial nodes.
 
-https://neo4j.com/blog/this-week-in-neo4j-building-a-dating-site-analyzing-google-analytics-remembering-machine-learning-models/?ref=twitter#cytoscape-docker-godot-ml
+https://neo4j.com/blog/this-week-in-neo4j-exploring-large-knowledge-graphs-analysing-youtube-videos-using-nlp-techniques-data-modelling-for-beginners/?ref=twitter#online-meetup
 
 #neo4j
 ```
 
-
-
-
 ```
-In this week's #twin4j
+In this week's #twin4j we have tips for passing the Neo4j certification exam
 
-https://neo4j.com/blog/this-week-in-neo4j-building-a-dating-site-analyzing-google-analytics-remembering-machine-learning-models/?ref=twitter#dr-jim-contentful-icij
+https://neo4j.com/blog/this-week-in-neo4j-exploring-large-knowledge-graphs-analysing-youtube-videos-using-nlp-techniques-data-modelling-for-beginners/?ref=twitter#articles-1
 
 ```
 
@@ -107,22 +103,22 @@ https://neo4j.com/blog/this-week-in-neo4j-building-a-dating-site-analyzing-googl
 ```
 In this week's #twin4j
 
-https://neo4j.com/blog/this-week-in-neo4j-building-a-dating-site-analyzing-google-analytics-remembering-machine-learning-models/?ref=twitter#new-datatypes-open-beer-database
+https://neo4j.com/blog/this-week-in-neo4j-exploring-large-knowledge-graphs-analysing-youtube-videos-using-nlp-techniques-data-modelling-for-beginners/?ref=twitter#articles-1
 ```
 
 
 
 ```
-#twin4j - next week we have #neo4j meetups in Sydney, Portland, and Washington DC
+#twin4j - next week we have a #neo4j meetup in London
 
-https://neo4j.com/blog/this-week-in-neo4j-building-a-dating-site-analyzing-google-analytics-remembering-machine-learning-models/?ref=twitter#meetups
-
-```
+https://neo4j.com/blog/this-week-in-neo4j-exploring-large-knowledge-graphs-analysing-youtube-videos-using-nlp-techniques-data-modelling-for-beginners/?ref=twitter#meetups
 
 ```
-This Week in #Neo4j – Building a dating site, Analyzing Google Analytics, Remembering Machine Learning Models
 
-https://www.slideshare.net/neo4j/this-week-in-neo4j-14th-july-2018
+```
+This Week in #Neo4j – Support for Random Walks and Personalized PageRank in the Graph Algorithms library, POLE and graphs, and an Open Source Stack for Software Analysis
+
+https://www.slideshare.net/neo4j/this-week-in-neo4j-28th-july-2018
 
 All your graph database news in one handy slide deck!
 
