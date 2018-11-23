@@ -44,9 +44,9 @@ https://neo4j.com/blog/this-week-in-neo4j-kafka-connector-knn-classifier-neo4j-3
 
 
 ```
-Catch up with what happened last week in #Neo4j, including a complete refresh of the Neo4j ETL Guide, How to know if a graph database solves your problem, and releases of APOC and the JDBC Driver.
+Catch up with what happened last week in #Neo4j, including Analyzing PostgreSQL metadata, Similarity Algorithms Deep Dive, Decision Streams
 
-https://neo4j.com/blog/this-week-in-neo4j-neo4j-etl-guide-refresh-new-release-of-apoc-and-jdbc-driver-blockchain-analytics/
+https://neo4j.com/blog/this-week-in-neo4j-analyzing-postgresql-metadata-similarity-algorithms-deep-dive-decision-streams
 
 via @markhneedham @mesirii
 
@@ -54,70 +54,68 @@ via @markhneedham @mesirii
 ```
 
 ```
-In this week's #twin4j @vizdatamodeler shows how to build a graph data model directly from meta data stored in XML files
+In this week's #twin4j
 
-https://neo4j.com/blog/this-week-in-neo4j-neo4j-etl-guide-refresh-new-release-of-apoc-and-jdbc-driver-blockchain-analytics/?ref=twitter#articles-2
+https://neo4j.com/blog/this-week-in-neo4j-deep-learning-on-graphs-go-driver-released-improved-azure-cloud-support/?ref=twitter#features-1
+```
+
+```
+In this week's #twin4j @AliTheCoder announced the release of the 1.7 series of our official Neo4j Drivers, including a new language to our driver family: Go.
+
+https://neo4j.com/blog/this-week-in-neo4j-deep-learning-on-graphs-go-driver-released-improved-azure-cloud-support/?ref=twitter#features-2
 
 #neo4j
 ```
 
 ```
-In this week's #twin4j @dan_mcginn has published a paper in which he describes how to use Neo4j to derive socially useful information from public blockchains.
+In this week's #twin4j @mdavidallen launched some major improvements for #Neo4j support on the #Azure Marketplace
 
-https://neo4j.com/blog/this-week-in-neo4j-neo4j-etl-guide-refresh-new-release-of-apoc-and-jdbc-driver-blockchain-analytics/?ref=twitter#articles-2
-
-#neo4j
-```
-
-```
-In this week's #twin4j we have releases of APOC and the Neo4j JDBC Driver
-
-https://neo4j.com/blog/this-week-in-neo4j-neo4j-etl-guide-refresh-new-release-of-apoc-and-jdbc-driver-blockchain-analytics/?ref=twitter#feature-1
-```
-
-```
-In this week's #twin4j @jmhreif explains how to work out whether you should use a graph database for your next project
-
-https://neo4j.com/blog/this-week-in-neo4j-neo4j-etl-guide-refresh-new-release-of-apoc-and-jdbc-driver-blockchain-analytics/?ref=twitter#articles-1
-
-#twin4j
-```
-
-```
-In this week's #twin4j @jmhreif has done a complete refresh of the Neo4j ETL guide, in which sh eexplains how to get up and running with the Neo4j ETL Tool, and gives us a guided tour of the tool while importing data from a Postgres database.
-
-https://neo4j.com/blog/this-week-in-neo4j-neo4j-etl-guide-refresh-new-release-of-apoc-and-jdbc-driver-blockchain-analytics/?ref=twitter#articles-1
+https://neo4j.com/blog/this-week-in-neo4j-deep-learning-on-graphs-go-driver-released-improved-azure-cloud-support/?ref=twitter#features-3
 
 #neo4j
 ```
 
 ```
-In this week's #twin4j @ellazal presented a webinar in which she explained why Neo4j is such a great fit for Identity and Access Management.
+In this week's #twin4j @sll shows how to use #Neo4j graph algorithms to analyse the Lightning Network
 
-https://neo4j.com/blog/this-week-in-neo4j-neo4j-etl-guide-refresh-new-release-of-apoc-and-jdbc-driver-blockchain-analytics/?ref=twitter#online-meetup
+https://neo4j.com/blog/this-week-in-neo4j-deep-learning-on-graphs-go-driver-released-improved-azure-cloud-support/?ref=twitter#features-4
 
-```
-
-
-```
-In this week's #twin4j @mesirii wrote a blog post in which he shows how to visualize graphs in 3D with WebGL using the 3d-force-graph library.
-
-https://neo4j.com/blog/this-week-in-neo4j-neo4j-etl-guide-refresh-new-release-of-apoc-and-jdbc-driver-blockchain-analytics/?ref=twitter#articles-1
+#Neo4j
 ```
 
 
 
 ```
-#twin4j - next week we have a #neo4j meetup in London
+In this week's #twin4j @mattcasters wrote a blog post describing what he’s been up to with the Neo4j Kettle integration since he joined the team in April this year.
 
-https://neo4j.com/blog/this-week-in-neo4j-exploring-large-knowledge-graphs-analysing-youtube-videos-using-nlp-techniques-data-modelling-for-beginners/?ref=twitter#meetups
+https://neo4j.com/blog/this-week-in-neo4j-deep-learning-on-graphs-go-driver-released-improved-azure-cloud-support/?ref=twitter#articles-1
+
+#Neo4j
+```
+
+```
+In this week's #twin4j
+
+https://neo4j.com/blog/this-week-in-neo4j-deep-learning-on-graphs-go-driver-released-improved-azure-cloud-support/?ref=twitter#articles-1
+```
+
+```
+In this week's #twin4j
+
+https://neo4j.com/blog/this-week-in-neo4j-deep-learning-on-graphs-go-driver-released-improved-azure-cloud-support/?ref=twitter#articles-2
+```
+
+```
+#twin4j - next week we have #neo4j events in Sydney, Berlin, and Online!
+
+https://neo4j.com/blog/this-week-in-neo4j-deep-learning-on-graphs-go-driver-released-improved-azure-cloud-support/?ref=twitter#meetups
 
 ```
 
 ```
-This Week in #Neo4j – A complete refresh of the Neo4j ETL Guide, How to know if a graph database solves your problem, and releases of APOC and the JDBC Driver.
+This Week in #Neo4j - Analyzing PostgreSQL metadata, Similarity Algorithms Deep Dive, Decision Streams
 
-https://www.slideshare.net/neo4j/this-week-in-neo4j-11th-august-2018
+https://www.slideshare.net/neo4j/this-week-in-neo4j-24th-november-2018
 
 All your graph database news in one handy slide deck!
 
