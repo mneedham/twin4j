@@ -16,20 +16,20 @@ ft <twitter-handles> + #<topics>
 ```
 
 ```
-Sat 00:00 (community member)  []
-Sat 05:00 (slides)            []
-Sat 14:00                     []
-Sat 21:00 (meetups)           []
-Sun 11:00                     []
-Sun 16:00                     []
-Sun 23:00                     []
-Mon 02:00                     []
-Tue 03:00 (catchup)           []
-Tue 12:00                     []
+Sat 00:00 (community member)  [x]
+Sat 05:00 (slides)            [x]
+Sat 14:00                     [x]
+Sat 21:00 (meetups)           [x]
+Sun 11:00                     [x]
+Sun 16:00                     [x]
+Sun 23:00                     [x]
+Mon 02:00                     [x]
+Tue 03:00 (catchup)           [x]
+Tue 12:00                     [x]
 
-Facebook                      []
-Google+                       []
-LinkedIn                      []
+Facebook                      [x]
+Google+                       [x]
+LinkedIn                      [x]
 ```
 
 ```
@@ -54,50 +54,52 @@ via @markhneedham @mesirii
 ```
 
 ```
-In this week's #twin4j
+In this week's #twin4j Tomaz Bratanic showed us how to use the similarity algorithms recently added to the Neo4j Graph Algorithms library.
 
-https://neo4j.com/blog/this-week-in-neo4j-deep-learning-on-graphs-go-driver-released-improved-azure-cloud-support/?ref=twitter#features-1
+https://neo4j.com/blog/this-week-in-neo4j-analyzing-postgresql-metadata-similarity-algorithms-deep-dive-decision-streams/?ref=twitter#features-1
 ```
 
 ```
-In this week's #twin4j @AliTheCoder announced the release of the 1.7 series of our official Neo4j Drivers, including a new language to our driver family: Go.
+In this week's #twin4j Lucas Jellema showed how to build a Code One Session Recommendation Engine using Neo4j
 
-https://neo4j.com/blog/this-week-in-neo4j-deep-learning-on-graphs-go-driver-released-improved-azure-cloud-support/?ref=twitter#features-2
+https://neo4j.com/blog/this-week-in-neo4j-analyzing-postgresql-metadata-similarity-algorithms-deep-dive-decision-streams/?ref=twitter#features-2
 
 #neo4j
 ```
 
 ```
-In this week's #twin4j @mdavidallen launched some major improvements for #Neo4j support on the #Azure Marketplace
+In this week's #twin4j Naren Chowdary wrote a blog post showing how to use GraphQL as an ingestion layer for importing data into #Neo4j.
 
-https://neo4j.com/blog/this-week-in-neo4j-deep-learning-on-graphs-go-driver-released-improved-azure-cloud-support/?ref=twitter#features-3
+https://neo4j.com/blog/this-week-in-neo4j-analyzing-postgresql-metadata-similarity-algorithms-deep-dive-decision-streams/?ref=twitter#features-3
 
 #neo4j
 ```
 
 ```
-In this week's #twin4j @sll shows how to use #Neo4j graph algorithms to analyse the Lightning Network
+In this week's #twin4j @maxdemarzi shows how to train and execute a Decision Stream using #Neo4j procedures
 
-https://neo4j.com/blog/this-week-in-neo4j-deep-learning-on-graphs-go-driver-released-improved-azure-cloud-support/?ref=twitter#features-4
-
-#Neo4j
-```
-
-
-
-```
-In this week's #twin4j @mattcasters wrote a blog post describing what he’s been up to with the Neo4j Kettle integration since he joined the team in April this year.
-
-https://neo4j.com/blog/this-week-in-neo4j-deep-learning-on-graphs-go-driver-released-improved-azure-cloud-support/?ref=twitter#articles-1
+https://neo4j.com/blog/this-week-in-neo4j-analyzing-postgresql-metadata-similarity-algorithms-deep-dive-decision-streams/?ref=twitter#features-4
 
 #Neo4j
 ```
+
+```
+In this week's #twin4j Adrien Sales shows how to use #Neo4j to analyse the meta data of a PostgreSQL database.
+
+https://neo4j.com/blog/this-week-in-neo4j-deep-learning-on-graphs-go-driver-released-improved-azure-cloud-support/?ref=twitter#features-5
+```
+
+
 
 ```
 In this week's #twin4j
 
-https://neo4j.com/blog/this-week-in-neo4j-deep-learning-on-graphs-go-driver-released-improved-azure-cloud-support/?ref=twitter#articles-1
+https://neo4j.com/blog/this-week-in-neo4j-analyzing-postgresql-metadata-similarity-algorithms-deep-dive-decision-streams/?ref=twitter#articles-1
+
+#Neo4j
 ```
+
+
 
 ```
 In this week's #twin4j
@@ -106,9 +108,9 @@ https://neo4j.com/blog/this-week-in-neo4j-deep-learning-on-graphs-go-driver-rele
 ```
 
 ```
-#twin4j - next week we have #neo4j events in Sydney, Berlin, and Online!
+#twin4j - next week we have a #neo4j online meetup with Ward Cunningham
 
-https://neo4j.com/blog/this-week-in-neo4j-deep-learning-on-graphs-go-driver-released-improved-azure-cloud-support/?ref=twitter#meetups
+https://neo4j.com/blog/this-week-in-neo4j-analyzing-postgresql-metadata-similarity-algorithms-deep-dive-decision-streams/?ref=twitter#meetups
 
 ```
 
