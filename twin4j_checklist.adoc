@@ -16,31 +16,31 @@ ft <twitter-handles> + #<topics>
 ```
 
 ```
-Sat 00:00 (community member)  [x]
-Sat 05:00 (slides)            [x]
-Sat 14:00                     [x]
-Sat 21:00 (meetups)           [x]
-Sun 11:00                     [x]
-Sun 16:00                     [x]
-Sun 23:00                     [x]
-Mon 02:00                     [x]
-Tue 03:00 (catchup)           [x]
-Tue 12:00                     [x]
+Sat 00:00 (community member)  []
+Sat 05:00 (slides)            []
+Sat 14:00                     []
+Sat 21:00 (meetups)           []
+Sun 11:00                     []
+Sun 16:00                     []
+Sun 23:00                     []
+Mon 02:00                     []
+Tue 03:00 (catchup)           []
+Tue 12:00                     []
 
-Facebook                      [x]
-Google+                       [x]
-LinkedIn                      [x]
+Facebook                      []
+Google+                       []
+LinkedIn                      []
 ```
 
 ```
-This week's #Neo4j featured community member is @michaeldgrahams
+This week's #Neo4j featured community member is @_TomMichiels_
 
-https://neo4j.com/blog/this-week-in-neo4j-neo4j-etl-guide-refresh-new-release-of-apoc-and-jdbc-driver-blockchain-analytics/?ref=twitter#featured-community-member
+https://neo4j.com/blog/this-week-in-neo4j-kafka-connector-knn-classifier-neo4j-3-5-release-modeling-corporate-resources/?ref=twitter#featured-community-member
 
 #twin4j
 ```
 
-https://neo4j.com/blog/this-week-in-neo4j-neo4j-etl-guide-refresh-new-release-of-apoc-and-jdbc-driver-blockchain-analytics/
+https://neo4j.com/blog/this-week-in-neo4j-kafka-connector-knn-classifier-neo4j-3-5-release-modeling-corporate-resources/
 
 
 ```
