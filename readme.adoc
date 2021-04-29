@@ -1,7 +1,7 @@
 Run this command:
 
 ```
-asciidoctor -T templates  -o - adoc/<file> | pbcopy
+./gdoc.sh "<gdoc id>" > adoc/<date>.html
 ```
 
 And then bam it into Wordpress.
