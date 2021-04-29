@@ -1,0 +1,176 @@
+<div id="content">
+<div class="paragraph">
+<p>Hello, everyone!</p>
+</div>
+<div class="paragraph">
+<p>In this week&#8217;s episode, Marco Falcier announced an update to the neo4j-versioner-core library. </p>
+</div>
+<div class="paragraph">
+<p>NODES 2021 Call for Papers <strong>ends April 5</strong>. Cristina walks through how she and Alisson migrated Neo4j’s GraphGist portal to the GRANDstack. GraphStuff.FM is now live - a podcast for all things graph.</p>
+</div>
+<div class="paragraph">
+<p>And finally, Davide shows us how to test polyglot with Github Actions, Lju gives us a fun game to play with data, and Will builds the next part of the podcast application.</p>
+</div>
+<div class="paragraph">
+<p>Cheers,
+<a href="https://twitter.com/jmhreif" target="_blank" rel="noopener">Jennifer</a> and the Developer Relations team</p>
+</div>
+<div class="sect2">
+<h3 id="featured-community-member">Featured Community Member: Zuye Zheng</h3><br />
+<div class="paragraph">
+<p>This week&#8217;s featured community member is Zuye Zheng.</p>
+</div>
+<div class="imageblock image-heading">
+                <div class="content">
+                    <img src="https://dist.neo4j.com/wp-content/uploads/20210326192351/this-week-in-neo4j-27-march-2021.jpeg" alt="Zuye Zheng - This Week’s Featured Community Member" width="800" height="400">
+                </div>
+            </div>
+            <p style="font-size: .8em; line-height: 1.5em;" align="center">
+              <strong>Zuye Zheng - This Week's Featured Community Member</strong>
+            </p>
+<div class="paragraph">
+<p>Zuye is a Principal Architect at Salesforce in San Francisco, where he leads the development of the Salesforce Analytics experience for traditional reports and dashboards and ML augmented interfaces leveraging natural language and semantic graphs. Before that, he worked at Duetto Research and co-founded AppMesh.
+We saw Zuye&#8217;s really interesting article a few weeks ago on <a href="https://medium.com/geekculture/graphing-r-investing-and-r-wallstreetbets-c9f9f9276d69">Graphing r/Investing and r/Wallstreetbets</a> where he imported Reddit posts, comments, users, and stock symbols they talked about into Neo4j and ran a number of graph analysis experiments on them. We hope to see more cool uses of graphs coming from him in the future.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.linkedin.com/in/zuyezheng/" class="medium button">Connect with Zuye on LinkedIn</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="features-1">Updates to neo4j-versioner-core library</h3><br />
+<div style="float:right; padding: 2px        ">
+<img src="https://dist.neo4j.com/wp-content/uploads/20210325131932/es-data-model.png" width="150px"  />
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>Marco Falcier and Alberto D'Este have updated the popular neo4j-versioner-core library that allows users to handle data versioning in Neo4j.</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This library helps keep track of entity state in the database. It is added as an extension, just like APOC or custom plugins would be. We can clone the repository, add it to the plugins directory in Neo4j, and restart the database. For more details on functionality and usage, there is <a href="https://github.com/h-omer/neo4j-versioner-core/blob/master/docs/index.md">documentation</a> in the Github repository.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://github.com/h-omer/neo4j-versioner-core" class="medium button">Check out the Github repository</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="features-2">Call to NODES</h3><br />
+<div style="float:right; padding: 2px        ">
+<img src="https://dist.neo4j.com/wp-content/uploads/20210325133255/nodes2021-banner-crop.png" width="200px"  />
+</div>
+<div class="paragraph">
+<p>The closing date for this year&#8217;s Neo4j Online Developer Expo and Summit (NODES) call for papers (CfP) is just around the corner! You have until <strong>April 5 at 23:30 UTC</strong> to get your submissions in. Need some help with the process?</p>
+</div>
+<div class="ulist">
+<ul><ul>
+<li>
+Here’s a <a href="https://medium.com/neo4j/nodes-2021-is-coming-and-we-need-you-c93be99ebce4">blog post</a> on why to submit to NODES and coming up with ideas
+</li>
+<li>
+Check out this <a href="http://graphstuff.fm/">GraphStuff.FM podcast</a> on putting together a technical presentation
+</li>
+<li>
+Ask any questions on our <a href="https://discord.gg/neo4j">Discord server</a> in #nodes
+</li>
+<li>
+Or alternatively on <a href="https://community.neo4j.com/t/nodes-2021-june-17-talk-submission-questions/">the forum</a>
+</li>
+</ul></ul>
+</div>
+<div class="paragraph">
+<p>We look forward to hearing your graph story! </p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.papercall.io/nodes-2021" class="medium button">Submit a talk to NODES 2021</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="features-3">Building a CMS with the GRANDstack</h3><br />
+<div style="float:right; padding: 2px        ">
+<img src="https://dist.neo4j.com/wp-content/uploads/20210325194638/graphgist-portal.png" width="200px"  />
+</div>
+<div class="paragraph">
+<p>Cristina wrote a blog post about how she and her colleague, Alisson, updated our <a href="http://portal.graphgist.org" target="_blank" rel="noopener">GraphGist portal</a>. The portal contains short, interactive examples of graphs with a variety of data sets and includes data models and sample queries.</p>
+</div>
+<div class="paragraph">
+<p>Cristina and Alisson migrated the existing application from a Ruby on Rails codebase to a new and improved GRANDstack structure. The blog post walks through how they did it - from data in the Neo4j database to GraphQL queries to the content approval process.</p>
+</div>
+<div class="paragraph">
+<p>Thank you, Cristina and Alisson, for the amazing work you did!</p>
+</div>
+<div class="paragraph">
+<p><a href="https://medium.com/neo4j/building-a-graphql-based-cms-with-the-grandstack-781ec083b240" class="medium button">Read the blog post</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="features-4">New! GraphStuff.FM Podcast</h3><br />
+<div style="float:right; padding: 2px; padding-left: 4px;">
+<img src="https://dist.neo4j.com/wp-content/uploads/20210325202224/graph.fm_.png" width=150px"  />
+</div>
+<div class="paragraph">
+<p>Will Lyon and Lju Lazarevic are co-hosting a new podcast all about graphs - <a href="https://graphstuff.fm/" target="_blank" rel="noopener">GraphStuff.FM</a>! It’s your one-stop-shop for all things graph and connected data.</p>
+</div>
+<div class="paragraph">
+<p>There are two podcast episodes released so far with more to come. Tune in to the <a href="https://graphstuff.fm/episodes/navigating-a-technical-conference-talk-from-submission-to-delivery" target="_blank" rel="noopener">latest episode</a> to hear how to navigate a conference from submission to delivery.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://graphstuff.fm/" class="medium button">Tune in and subscribe to the podcast</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="features-5">Testing Polyglot with Github Actions, Explore Neo4j, GRANDstack Podcast App</h3><br />
+<div style="float:right; padding: 2px        ">
+<img src="https://dist.neo4j.com/wp-content/uploads/20201002012844/noun_Book_1908773.png" width="200px"  />
+</div>
+<div class="ulist">
+<ul><ul>
+<li>
+Davide Fantuzzi shows us how they built a CI pipeline to <a href="https://medium.com/larus-team/testing-polyglot-libraries-with-github-actions-20669ae19238" target="_blank" rel="noopener">test polyglot with Github actions</a>, starting with Python.
+</li>
+<li>
+Lju Lazarevic gives you a fun, pandemic-friendly way to <a href="https://medium.com/neo4j/getting-to-know-you-getting-to-know-all-about-you-1cd0d2aacc6b" target="_blank" rel="noopener">try Neo4j with friends</a>.
+</li>
+<li>
+Will Lyon released another blog post (#5) in his <a href="https://lyonwj.com/blog/grandstack-podcast-app-chakra-ui-responsive-nav-bar-episode-component">podcast application series</a>.
+</li>
+</ul></ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_tweet_of_the_week">Tweet of the Week</h3><br />
+<div class="paragraph">
+<p>My favourite tweet this week was by <a href="https://twitter.com/RJElsinga" target="_blank" rel="noopener">RoelOf Jan Elsinga</a>:</p>
+</div>
+<div class="content">
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I feel like I have super powers when using <a href="https://twitter.com/hashtag/neo4j?src=hash&amp;ref_src=twsrc%5Etfw">#neo4j</a> ⚡ I didn&#39;t know I needed a schemaless database with such simple relationships between nodes this much 🔥</p>&mdash; Roelof Jan Elsinga 🇳🇱 (@RJElsinga) <a href="https://twitter.com/RJElsinga/status/1368523106596368402?ref_src=twsrc%5Etfw">March 7, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      </div>
+<div class="paragraph">
+<p>Don&#8217;t forget to RT if you liked it too!</p>
+</div>
+<style type="text/css">
+.image-heading {
+  text-align: center;
+}
+
+.heading {
+  font-size: .8em;
+  line-height: 1.5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+blockquote.tweet {
+  background-color: #68bdf6;
+  border-left: 5px solid #5ca8db;
+  color: #ffffff
+}
+
+
+div.listingblock {
+  margin-bottom: 1.5rem;
+}
+</style>
+</div>
+</div>

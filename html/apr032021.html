@@ -1,0 +1,157 @@
+<div id="content">
+<div class="paragraph">
+<p>Hello, everyone!</p>
+</div>
+<div class="paragraph">
+<p>In this week&#8217;s episode, Jesús Barrasa shows us how to build a life sciences knowledge graph with public RDF sources on infectious diseases, viruses, chemicals, drugs, and scientific literature.</p>
+</div>
+<div class="paragraph">
+<p>Will creates a livestream and blog post on building playlist components for the GRANDstack podcast application. Lju imports an Archimate model into Neo4j and explores the data using Cypher and the Graph Data Science library. Sarah makes the case for graph databases to analyze customer survey data.</p>
+</div>
+<div class="paragraph">
+<p>And finally, Alex explains using Neo4j to create indirect money transfers based on user trust networks, Hack.Commit.Push announced their free and open source hackathon, and the Neo4j Community Forum has several opportunities for jobs and personal development.</p>
+</div>
+<div class="paragraph">
+<p>Cheers,
+<a href="https://twitter.com/jmhreif" target="_blank" rel="noopener">Jennifer</a> and the Developer Relations team</p>
+</div>
+<div class="sect2">
+<h3 id="featured-community-member">Featured Community Member: Jean Villedieu</h3><br />
+<div class="paragraph">
+<p>This week&#8217;s featured community member is Jean Villedieu.</p>
+</div>
+<div class="imageblock image-heading">
+                <div class="content">
+                    <img src="https://dist.neo4j.com/wp-content/uploads/20210402113953/fcm-jean-villedieu-april32021.jpeg" alt="Jean Villedieu - This Week’s Featured Community Member" width="800" height="400">
+                </div>
+            </div>
+            <p style="font-size: .8em; line-height: 1.5em;" align="center">
+              <strong>Jean Villedieu - This Week's Featured Community Member</strong>
+            </p>
+<div class="paragraph">
+<p>Jean is a Sales Director at Linkurious, where he helps people use graphs to fight financial crime, invent drugs, or expose criminals.
+He has a lively <a href="https://twitter.com/jvilledieu" target="_blank" rel="noopener">Twitter account</a> covering a lot of graph content and is an active member in the <a href="https://www.meetup.com/graphdb-toulouse" target="_blank" rel="noopener">Graph Database - Toulouse</a> Meetup group. Jean has made appearances on several Neo4j events and content. Most recently, he  <a href="https://www.youtube.com/watch?v=zRDQuu7jmto&amp;list=PL9Hl4pk2FsvW72ygVRLaFHOzHwbFcupoL&amp;index=8" target="_blank" rel="noopener">presented a session</a> at Neo4j’s Connections event for cybersecurity explaining how graphs provide unparalleled insight to think like attackers and prevent or respond to threats. We appreciate his championing of graphs and are looking forward to his continued contributions to the Neo4j community!</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.linkedin.com/in/jean-villedieu-174452b/" class="medium button">Connect with Zuye on LinkedIn</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="features-1">Build a Life Sciences Knowledge Graph with Public RDF Sources</h3><br />
+<div style="float:right; padding: 2px        ">
+<img src="https://dist.neo4j.com/wp-content/uploads/20210401202410/twin4j_knowledge_graph.jpeg" width="150px"  />
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>Jesús Barrasa speaks about life science data and demos importing various RDF sources into Neo4j. We get an intro into RDF data and the structure, then Jesús dives right into import to show us how it’s done. We get a live demonstration of importing infectious diseases, viruses, chemicals, and drugs with https://neo4j.com/labs/neosemantics/[neosemantics^] and SPARQL. Jesús then ties the disparate sources together in Neo4j using Cypher, and runs queries real-time that navigate across the data sources in the graph!</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Wrapping up, Jesús left us with some potential expansions on what we saw, including importing scientific literature to the data, running graph algorithms for deeper insights, or adding schema/ontology information. We also got some links to neosemantics for importing RDF data, as well as <a href="https://github.com/jbarrasa/connections-lifesci" target="_blank" rel="noopener">Jesús’s repository</a> for this knowledge graph so that we can explore or build our own!</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.youtube.com/watch?v=tDPK4CTamKg&amp;t=844s" class="medium button">Watch the video</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="features-2">Adding Frontend Features With Next.js, Chakra UI, &amp; Apollo Client</h3><br />
+<div style="float:right; padding: 2px        ">
+<img src="https://dist.neo4j.com/wp-content/uploads/20210401202843/twin4j_podcast_episode6.jpg" width="200px"  />
+</div>
+<div class="paragraph">
+<p>Will Lyon wrote another blog post in the GRANDstack podcast application series. The page also includes a livestream video you can watch and follow along. In the post, we see how to build the components so that users can view their playlists, see episodes in a specific playlist, and create a new playlist.</p>
+</div>
+<div class="paragraph">
+<p>Will shows how to use a flex, popover, and vstack from the Chakra UI components, and then build GraphQL queries in order to populate the data to fill those components on the frontend. There’s even a teaser at the end for next week’s episode for building out search capabilities!</p>
+</div>
+<div class="paragraph">
+<p><a href="https://lyonwj.com/blog/grandstack-podcast-app-chakra-ui-next-js-graphql-apollo-client" class="medium button">Read the blog post or watch the video</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="features-3">Using a Graph Database to Explore Your Archimate Model</h3><br />
+<div style="float:right; padding: 2px; padding-left: 4px;">
+<img src="https://dist.neo4j.com/wp-content/uploads/20210401202357/twin4j_archimate_model.png" width=150px"  />
+</div>
+<div class="paragraph">
+<p>Lju Lazarevic updated her blog post on exploring enterprise architecture in Neo4j to include some analysis with graph algorithms. You can follow along with her steps using your own Neo4j instance or open a blank Neo4j Sandbox (no download)!</p>
+</div>
+<div class="paragraph">
+<p>First, Lju walks through how to import an Archimate model using either a database plugin or Cypher queries. Then, we can tweak the data (with some caution) and see how to export it back out again. Finally, we start analyzing the data in the graph to find connections - or lack thereof - and to gain insight on network structure by using algorithms in the Graph Data Science library, like Pagerank.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://lju.medium.com/using-a-graph-database-to-explore-your-archimate-model-df7bd63f65dd" class="medium button">Read the blog post</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="features-4">Gaining Insight from Customer Survey Responses with Graph Databases</h3><br />
+<div style="float:right; padding: 2px        ">
+<img src="https://dist.neo4j.com/wp-content/uploads/20210401202353/twin4j_customer_surveys.png" width="200px"  />
+</div>
+<div class="paragraph">
+<p>Sarah C Evans writes a blog post about the value of using graph databases to analyze survey response data. In a time of limited or no social interaction, customer experiences with virtual content, services, and products is even more vital. Yet, it is difficult for companies to find valuable data in their customer surveys.</p>
+</div>
+<div class="paragraph">
+<p>Often, people view customer surveys as individual and siloed experiences, but Sarah shares that there are a variety of touchpoints that form the experience. A graph database helps forma a better picture of the total experience by using the collection of information bits. Sarah delves into each of the functionalities of a graph database and how those make an impact on customer survey analysis.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.graphable.ai/post/utilizing-customer-survey-responses" class="medium button">Read the blog post</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="features-5">Visualize Trust Networks, Hack.Commit.Push announcement, and Community Forum Opportunities</h3><br />
+<div style="float:right; padding: 2px        ">
+<img src="https://dist.neo4j.com/wp-content/uploads/20201002012844/noun_Book_1908773.png" width="200px"  />
+</div>
+<div class="ulist">
+<ul><ul>
+<li>
+Alex shows us how CirclesUBI uses Neo4j to <a href="https://aboutcircles.com/t/visualizing-trust-trustgraphs-of-circlesubi-in-neo4j/374" target="_blank" rel="noopener">visualize indirect trust networks</a> between users for money transfers.
+</li>
+<li>
+<a href="https://twitter.com/hackcommitpush" target="_blank" rel="noopener">@hackcommitpush</a> announced the upcoming <a href="https://twitter.com/hackcommitpush/status/1375513786451251203" target="_blank" rel="noopener">hack.commit.push event</a>, and registrations are now open! You can join to contribute projects to the open source community.
+</li>
+<li>
+Looking for Opportunities? Neo4j Community Forum currently has a several available, including <a href="https://community.neo4j.com/t/helping-young-creators-from-disadvantaged-backgrounds/35467" target="_blank" rel="noopener">helping young creators from disadvantaged backgrounds</a>, <a href="https://community.neo4j.com/t/lgbt-lds-suicide-prevention-web-site-seeks-expert-neo4j-cypher-php-developer-to-create-new-database-system/29732" target="_blank" rel="noopener">LGBT - LDS Suicide Prevention: developer to create new database system</a>, and a <a href="https://community.neo4j.com/t/contract-or-permanent-position-for-scale-up-neo4j/33977" target="_blank" rel="noopener">permanent position: Data Scientists</a>.
+</li>
+</ul></ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_tweet_of_the_week">Tweet of the Week</h3><br />
+<div class="paragraph">
+<p>My favorite tweet this week was by <a href="https://twitter.com/happydragos" target="_blank" rel="noopener">Dragos</a>:</p>
+</div>
+<div class="content">
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I used <a href="https://twitter.com/neo4j?ref_src=twsrc%5Etfw">@neo4j</a> to build Archbee&#39;s document backlinks and knowledge graph — a way to visualize which documents point to your current document &amp; also visualize the whole knowledge graph in your team&#39;s workspace.<a href="https://twitter.com/hashtag/knowledgegraph?src=hash&amp;ref_src=twsrc%5Etfw">#knowledgegraph</a> <a href="https://twitter.com/hashtag/neo4j?src=hash&amp;ref_src=twsrc%5Etfw">#neo4j</a> <a href="https://twitter.com/hashtag/graphdatabases?src=hash&amp;ref_src=twsrc%5Etfw">#graphdatabases</a> <a href="https://t.co/ZIoZwVxMwb">pic.twitter.com/ZIoZwVxMwb</a></p>&mdash; Dragos (@happydragos) <a href="https://twitter.com/happydragos/status/1366377682578141185?ref_src=twsrc%5Etfw">March 1, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      </div>
+<div class="paragraph">
+<p>Don&#8217;t forget to RT if you liked it too!</p>
+</div>
+<style type="text/css">
+.image-heading {
+  text-align: center;
+}
+
+.heading {
+  font-size: .8em;
+  line-height: 1.5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+blockquote.tweet {
+  background-color: #68bdf6;
+  border-left: 5px solid #5ca8db;
+  color: #ffffff
+}
+
+
+div.listingblock {
+  margin-bottom: 1.5rem;
+}
+</style>
+</div>
+</div>

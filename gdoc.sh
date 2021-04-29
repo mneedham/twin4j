@@ -2,10 +2,7 @@
 
 # echo 'include::{url}[]' > template.adoc
 
-# : ${doc_id:=${1:-"1CCM7BZjEVs_wLkm35X7o43PW0ILbZIGKbamOVmklxRQ"}}
-
-
-: ${doc_id:=${1:-"1npXygcsWG0Vnvop50_rB1BebiACHxfPV77h6A8pZ-hU"}}
+: ${doc_id:=${1:-"1SXua63naJNlttBtLILnam1ufb0IuMPp4cOTTI04LK0c"}}
 
 
 asciidoctor -a allow-uri-read \
